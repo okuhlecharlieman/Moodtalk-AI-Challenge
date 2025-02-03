@@ -1,0 +1,259 @@
+openapi: 3.0.0
+info:
+  title: Planner
+  description: "Planner User API"
+  version: 1.0.0
+
+paths:
+  /user:
+    get:
+      summary: Get profile of logged in user with JWT
+      operationId: getUser
+      tags:
+        - Planner
+      responses:
+        "200":
+          description: User profile
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UserDto"
+        "401":
+          description: Unauthorized
+
+  /user/language:
+    put:
+      summary: Save user language
+      operationId: putLanguage
+      tags:
+        - Planner
+      parameters:
+        - in: query
+          name: lang
+          schema:
+            $ref: "#/components/schemas/LanguageDto"
+          required: true
+      responses:
+        "200":
+          description: Language saved
+        "401":
+          description: Unauthorized
+
+  /employees:
+    get:
+      summary: Get Employees
+      operationId: getEmployees
+      tags:
+        - Planner
+      responses:
+        "200":
+          description: Employees
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/EmployeeDto"
+        "401":
+          description: Unauthorized
+    post:
+      summary: Create Employee
+      operationId: createEmployee
+      tags:
+        - Planner
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/EmployeeProperties"
+      responses:
+        "200":
+          description: Employee created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EmployeeDto"
+        "401":
+          description: Unauthorized
+
+  /employees/{employeeId}:
+    put:
+      summary: Update Employee
+      operationId: updateEmployee
+      parameters:
+        - in: path
+          name: employeeId
+          schema:
+            $ref: "#/components/schemas/UUID"
+          required: true
+      tags:
+        - Planner
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/EmployeeProperties"
+      responses:
+        "200":
+          description: Employee created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EmployeeDto"
+        "401":
+          description: Unauthorized
+
+  /projects:
+    get:
+      summary: Get Projects
+      operationId: getProjects
+      tags:
+        - Planner
+      responses:
+        "200":
+          description: Projects
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/ProjectDto"
+        "401":
+          description: Unauthorized
+    post:
+      summary: Create Project
+      operationId: createProject
+      tags:
+        - Planner
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ProjectProperties"
+      responses:
+        "200":
+          description: Project created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProjectDto"
+        "401":
+          description: Unauthorized
+
+  /projects/{projectId}:
+    put:
+      summary: Update Project
+      operationId: updateProject
+      parameters:
+        - in: path
+          name: projectId
+          schema:
+            $ref: "#/components/schemas/UUID"
+          required: true
+      tags:
+        - Planner
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ProjectProperties"
+      responses:
+        "200":
+          description: Project created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProjectDto"
+        "401":
+          description: Unauthorized
+
+components:
+  schemas:
+    LanguageDto:
+      type: string
+      enum:
+        - DE
+        - FR
+        - IT
+        - EN
+
+    UserDto:
+      type: object
+      properties:
+        id:
+          $ref: "#/components/schemas/UUID"
+        email:
+          type: string
+          format: "email"
+        language:
+          $ref: "#/components/schemas/LanguageDto"
+        company:
+          $ref: "#/components/schemas/CompanyDto"
+      required:
+        - id
+        - email
+        - language
+        - company
+
+    CompanyProperties:
+      type: object
+      properties:
+        logo:
+          type: string
+
+    CompanyDto:
+      allOf:
+        - $ref: "#/components/schemas/CompanyProperties"
+        - type: object
+          properties:
+            id:
+              $ref: "#/components/schemas/UUID"
+            name:
+              type: string
+          required:
+            - id
+            - name
+
+    EmployeeProperties:
+      type: object
+      properties:
+        name:
+          type: string
+      required:
+        - name
+
+    EmployeeDto:
+      allOf:
+        - $ref: "#/components/schemas/EmployeeProperties"
+        - type: object
+          properties:
+            id:
+              $ref: "#/components/schemas/UUID"
+          required:
+            - id
+
+    ProjectProperties:
+      type: object
+      properties:
+        name:
+          type: string
+        color:
+          type: string
+      required:
+        - name
+        - color
+
+    ProjectDto:
+      allOf:
+        - $ref: "#/components/schemas/ProjectProperties"
+        - type: object
+          properties:
+            id:
+              $ref: "#/components/schemas/UUID"
+          required:
+            - id
+
+    UUID:
+      type: string
+      minLength: 36
+      maxLength: 36

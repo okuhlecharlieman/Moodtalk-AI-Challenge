@@ -1,0 +1,13 @@
+<div class="modal-container" [ngClass]="useBackground ? 'bg-mask' : ''">
+  <i
+    class="bi bi-x-lg modal-close-button position-absolute top-0 end-0 m-2"
+    i18n-aria-label="@@close"
+    aria-label="Schliessen"
+    (click)="dismiss()"></i>
+  <div class="mt-3">
+    <ng-content select="[slot=content]"></ng-content>
+  </div>
+  <div class="mt-5">
+    <ng-content select="[slot=footer]"></ng-content>
+  </div>
+</div>

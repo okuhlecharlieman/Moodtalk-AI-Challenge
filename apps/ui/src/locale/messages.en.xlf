@@ -1,0 +1,3480 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="de" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="cancel" datatype="html">
+        <source>Abbrechen</source>
+        <target>Cancel</target>
+      </trans-unit>
+      <trans-unit id="confirm" datatype="html">
+        <source>Bestätigen</source>
+        <target>Confirm</target>
+      </trans-unit>
+      <trans-unit id="add" datatype="html">
+        <source>Hinzufügen</source>
+        <target>Add</target>
+      </trans-unit>
+      <trans-unit id="delete" datatype="html">
+        <source>Löschen</source>
+        <target>Delete</target>
+      </trans-unit>
+      <trans-unit id="save" datatype="html">
+        <source>Speichern</source>
+        <target>Save</target>
+      </trans-unit>
+      <trans-unit id="close" datatype="html">
+        <source>Schliessen</source>
+        <target>Close</target>
+      </trans-unit>
+      <trans-unit id="title" datatype="html">
+        <source>Titel</source>
+        <target>Title</target>
+      </trans-unit>
+      <trans-unit id="date" datatype="html">
+        <source>Datum</source>
+        <target>Date</target>
+      </trans-unit>
+      <trans-unit id="app.team-results" datatype="html">
+        <source>Team Resultate</source>
+        <target>Team Results</target>
+      </trans-unit>
+      <trans-unit id="app.individual-results" datatype="html">
+        <source>Meine Antworten</source>
+        <target>My answers</target>
+      </trans-unit>
+      <trans-unit id="app.team-charta" datatype="html">
+        <source>Team Charta</source>
+        <target>Team Charter</target>
+      </trans-unit>
+      <trans-unit id="app.data-privacy" datatype="html">
+        <source>Datenschutzerklärung</source>
+        <target>Privacy policy</target>
+      </trans-unit>
+      <trans-unit id="app.feedback" datatype="html">
+        <source>Feedback</source>
+        <target>Feedback</target>
+      </trans-unit>
+      <trans-unit id="inbox.back" datatype="html">
+        <source>Zurück</source>
+        <target>Back</target>
+      </trans-unit>
+      <trans-unit id="inbox.forward" datatype="html">
+        <source>Weiter</source>
+        <target>Next</target>
+      </trans-unit>
+      <trans-unit id="inbox.start" datatype="html">
+        <source>Start</source>
+        <target>Start</target>
+      </trans-unit>
+      <trans-unit id="inbox.personal-hint" datatype="html">
+        <source>Diese Frage ist privat und wird nicht in den Team Resultaten angezeigt.</source>
+        <target>This question is private and will not be displayed in the team results.</target>
+      </trans-unit>
+      <trans-unit id="inbox.all-done" datatype="html">
+        <source>Alles erledigt.</source>
+        <target>All done.</target>
+      </trans-unit>
+      <trans-unit id="inbox.to-results" datatype="html">
+        <source>Zu den Resultaten</source>
+        <target>To the results</target>
+      </trans-unit>
+      <trans-unit id="inbox.end-and-to-results" datatype="html">
+        <source>Beenden &amp; zu den Resultaten</source>
+        <target>Finish &amp; to the results</target>
+      </trans-unit>
+      <trans-unit id="personal-page-intro.subtitle" datatype="html">
+        <source>Die folgenden (blau markierten) Fragen sind optional und geben dir die Möglichkeit über dein Befinden zu reflektieren. Die Resultate sind persönlich und werden nur dir angezeigt.</source>
+        <target>The following questions (marked in blue) are optional and give you the opportunity to reflect on how you feel. The results are personal and will only be shown to you.</target>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <target>Next</target>
+      </trans-unit>
+      <trans-unit id="moodcall.question" datatype="html">
+        <source>Möchtest Du kontaktiert werden?</source>
+        <target>Would You like to be contacted?</target>
+      </trans-unit>
+      <trans-unit id="moodcall.i-confirm" datatype="html">
+        <source>Ich bestätige, dass ich gerne direkt von</source>
+        <target>I confirm that I would like to be contacted by</target>
+      </trans-unit>
+      <trans-unit id="moodcall.contact-desired" datatype="html">
+        <source>kontaktiert werden möchte.</source>
+        <target>directly.</target>
+      </trans-unit>
+      <trans-unit id="moodcall.someone" datatype="html">
+        <source>jemandem</source>
+        <target>someone</target>
+      </trans-unit>
+      <trans-unit id="moodcall.confirmation" datatype="html">
+        <source>Kontaktiere mich</source>
+        <target>Contact me</target>
+      </trans-unit>
+      <trans-unit id="moodhub.start" datatype="html">
+        <source>Start</source>
+        <target>Start</target>
+      </trans-unit>
+      <trans-unit id="moodhub.more-info" datatype="html">
+        <source>Mehr Informationen</source>
+        <target>More information</target>
+      </trans-unit>
+      <trans-unit id="moodhub.contact-me" datatype="html">
+        <source>Kontaktiere mich</source>
+        <target>Contact me</target>
+      </trans-unit>
+      <trans-unit id="results.team-results" datatype="html">
+        <source>Unser Team Mood</source>
+        <target>Our team mood</target>
+      </trans-unit>
+      <trans-unit id="results.individual-results" datatype="html">
+        <source>Meine Antworten</source>
+        <target>My answers</target>
+      </trans-unit>
+      <trans-unit id="results.quarterly" datatype="html">
+        <source>Jahresbericht</source>
+        <target>Annual Report</target>
+      </trans-unit>
+      <trans-unit id="results.annual-view" datatype="html">
+        <source>Jahresansicht</source>
+        <target state="new">Annual view</target>
+      </trans-unit>
+      <trans-unit id="results.weekly-view" datatype="html">
+        <source>Wochenansicht</source>
+        <target state="new">Weekly view</target>
+      </trans-unit>
+      <trans-unit id="results.live-results" datatype="html">
+        <source>Neuste Resultate</source>
+        <target>Latest results</target>
+      </trans-unit>
+      <trans-unit id="results.yearly-results" datatype="html">
+        <source>Jahresresultate</source>
+        <target>Annual Results</target>
+      </trans-unit>
+      <trans-unit id="options.show-all" datatype="html">
+        <source>Alle zeigen</source>
+        <target>Show all</target>
+      </trans-unit>
+      <trans-unit id="options.hide-all" datatype="html">
+        <source>Verbergen</source>
+        <target>Hide</target>
+      </trans-unit>
+      <trans-unit id="texts.show-all" datatype="html">
+        <source>Alle zeigen</source>
+        <target>Show all</target>
+      </trans-unit>
+      <trans-unit id="texts.hide-all" datatype="html">
+        <source>Verbergen</source>
+        <target>Hide</target>
+      </trans-unit>
+      <trans-unit id="team-charta.title" datatype="html">
+        <source>Team Charta</source>
+        <target>Team Charter</target>
+      </trans-unit>
+      <trans-unit id="team-charta.successes" datatype="html">
+        <source>Erfolge</source>
+        <target>Successes</target>
+      </trans-unit>
+      <trans-unit id="team-charta-topic.edit" datatype="html">
+        <source>Bearbeiten</source>
+        <target>Edit</target>
+      </trans-unit>
+      <trans-unit id="team-charta-topic.move" datatype="html">
+        <source>Verschieben</source>
+        <target>Move</target>
+      </trans-unit>
+      <trans-unit id="team-charta-topic.completed" datatype="html">
+        <source>Als erledigt markieren</source>
+        <target>Mark as completed</target>
+      </trans-unit>
+      <trans-unit id="team-charta-topic.commitment-add" datatype="html">
+        <source>Regel hinzufügen</source>
+        <target>Add rule</target>
+      </trans-unit>
+      <trans-unit id="team-charta-topic.topic-add" datatype="html">
+        <source>Thema hinzufügen</source>
+        <target>Add topic</target>
+      </trans-unit>
+      <trans-unit id="team-charta-topic.inspiration" datatype="html">
+        <source>Inspiration</source>
+        <target>Inspiration</target>
+      </trans-unit>
+      <trans-unit id="tt-add.suggestion-title" datatype="html">
+        <source>Inspiration aus der Community</source>
+        <target>Inspiration from the Community</target>
+      </trans-unit>
+      <trans-unit id="tt-add.suggestion-subtitle" datatype="html">
+        <source>Wähle einen Vorschlag für <x id="INTERPOLATION" equiv-text="{{ tagWithCommitments?.tag?.text }}"/></source>
+        <target>Select a suggestion for <x id="INTERPOLATION" equiv-text="{{ topic?.topic?.text }}"/></target>
+      </trans-unit>
+      <trans-unit id="tc-remove.question.rule" datatype="html">
+        <source>Möchtest Du die folgende Regel wirklich löschen?</source>
+        <target>Do you really want to delete the following rule?</target>
+      </trans-unit>
+      <trans-unit id="tc-move.title" datatype="html">
+        <source>Verschieben</source>
+        <target>Move</target>
+      </trans-unit>
+      <trans-unit id="tc-move.text" datatype="html">
+        <source>In folgendes Thema verschieben:</source>
+        <target>Move to the following topic:</target>
+      </trans-unit>
+      <trans-unit id="tc-move.confirmation" datatype="html">
+        <source>Verschieben</source>
+        <target>Move</target>
+      </trans-unit>
+      <trans-unit id="question.comment.placeholder" datatype="html">
+        <source>Möchtest du das Thema weiter beschreiben? Gebe hier einen Kommentar ein.</source>
+        <target>Would you like to describe the topic further? Add a comment here.</target>
+      </trans-unit>
+      <trans-unit id="nothing.tag" datatype="html">
+        <source>Nichts</source>
+        <target>Nothing</target>
+      </trans-unit>
+      <trans-unit id="other-topic.tag" datatype="html">
+        <source>Weitere</source>
+        <target>Other</target>
+      </trans-unit>
+      <trans-unit id="other-topic.placeholder" datatype="html">
+        <source>Schreibe hier die weiteren Themen rein.</source>
+        <target>Write the other topics here.</target>
+      </trans-unit>
+      <trans-unit id="other-topic.title" datatype="html">
+        <source>Welche weiteren Themen sind es?</source>
+        <target>What are the other topics?</target>
+      </trans-unit>
+      <trans-unit id="analysis-options.more-comments" datatype="html">
+        <source>Kommentare</source>
+        <target>Comments</target>
+      </trans-unit>
+      <trans-unit id="analysis-options.show-details" datatype="html">
+        <source>Details</source>
+        <target>Details</target>
+      </trans-unit>
+      <trans-unit id="analysis-options.nothing-percentage" datatype="html">
+        <source>Nichts:</source>
+        <target>Nothing:</target>
+      </trans-unit>
+      <trans-unit id="other-comments-modal.title-current" datatype="html">
+        <source>Aktuelle Kommentare</source>
+        <target>Current comments</target>
+      </trans-unit>
+      <trans-unit id="other-comments-modal.title-previous" datatype="html">
+        <source>Vorherige Kommentare</source>
+        <target>Previous comments</target>
+      </trans-unit>
+      <trans-unit id="team-edit.title" datatype="html">
+        <source>Unser Team</source>
+        <target>Our team</target>
+      </trans-unit>
+      <trans-unit id="team-edit.email" datatype="html">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="team-edit.resend-mail" datatype="html">
+        <source>Email erneut senden</source>
+        <target>Resend email</target>
+      </trans-unit>
+      <trans-unit id="team-edit.mail-sent" datatype="html">
+        <source>Email wird gesendet</source>
+        <target>Email will be sent</target>
+      </trans-unit>
+      <trans-unit id="team-edit.resend-dialog.title" datatype="html">
+        <source>Email erneut senden</source>
+        <target>Resend email</target>
+      </trans-unit>
+      <trans-unit id="team-edit.resend-dialog.description" datatype="html">
+        <source>Möchtest Du die Umfrage erneut an <x id="INTERPOLATION" equiv-text="{{ email }}"/> senden?</source>
+        <target>Would you like to resend the survey to <x id="INTERPOLATION" equiv-text="{{ email }}"/>?</target>
+      </trans-unit>
+      <trans-unit id="team-edit.resend-dialog.confirm" datatype="html">
+        <source>Email senden</source>
+        <target>Send email</target>
+      </trans-unit>
+      <trans-unit id="add-employee.title" datatype="html">
+        <source>Mitarbeitende hinzufügen</source>
+        <target>Add an employee</target>
+      </trans-unit>
+      <trans-unit id="remove.question" datatype="html">
+        <source>Möchtest Du den folgenden Mitarbeitenden wirklich entfernen?</source>
+        <target>Are you sure you want to remove the following employee?</target>
+      </trans-unit>
+      <trans-unit id="remove.confirmation" datatype="html">
+        <source>Entfernen</source>
+        <target>Remove</target>
+      </trans-unit>
+      <trans-unit id="initiative.name" datatype="html">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="org-dashboard.division" datatype="html">
+        <source>Bereich</source>
+        <target>Division</target>
+      </trans-unit>
+      <trans-unit id="org-dashboard.results" datatype="html">
+        <source>Meine Organisation</source>
+        <target>My organization</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.next-emails" datatype="html">
+        <source>Nächste Emails</source>
+        <target>Next emails</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.frequency-header" datatype="html">
+        <source>Häufigkeit der Umfragen</source>
+        <target>Frequency of surveys</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.next-date" datatype="html">
+        <source>Die nächsten Umfragen werden an folgenden Daten versendet:</source>
+        <target>The next surveys will be sent out on the following dates:</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.text1" datatype="html">
+        <source>Die Umfragen alle</source>
+        <target>Send the surveys every</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.text2" datatype="html">
+        <source>Woche(n) versenden.</source>
+        <target>Weeks.</target>
+      </trans-unit>
+      <trans-unit id="settings.title" datatype="html">
+        <source>Einstellungen</source>
+        <target>Settings</target>
+      </trans-unit>
+      <trans-unit id="app-mobile.settings" datatype="html">
+        <source>Einstellungen</source>
+        <target>Settings</target>
+      </trans-unit>
+      <trans-unit id="translation.translation" datatype="html">
+        <source>Übersetzung:</source>
+        <target>Translation:</target>
+      </trans-unit>
+      <trans-unit id="notes.first-moodtalk.start.agree" datatype="html">
+        <source>Stimmt ihr mit dem Bild überein, welches ihr im &quot;Team Mood&quot; seht?</source>
+        <target>Do you agree with the picture you see in &quot;Team Mood&quot;?</target>
+      </trans-unit>
+      <trans-unit id="notes.theory" datatype="html">
+        <source>Theorie</source>
+        <target>Theory</target>
+      </trans-unit>
+      <trans-unit id="notes.questions" datatype="html">
+        <source>Fragen</source>
+        <target>Questions</target>
+      </trans-unit>
+      <trans-unit id="notes.rules" datatype="html">
+        <source>Team Charta Regeln</source>
+        <target>Team Charter Rules</target>
+      </trans-unit>
+      <trans-unit id="notes.placeholder" datatype="html">
+        <source>Füge hier deine Notizen ein...</source>
+        <target>Insert your notes here...</target>
+      </trans-unit>
+      <trans-unit id="notes.discussion-questions" datatype="html">
+        <source>Diskussionsfragen:</source>
+        <target>Discussion questions:</target>
+      </trans-unit>
+      <trans-unit id="notes.important-topics" datatype="html">
+        <source>Wichtigste Themen</source>
+        <target>Most important topics</target>
+      </trans-unit>
+      <trans-unit id="notes.other-topics" datatype="html">
+        <source>Andere Themen</source>
+        <target>Other topics</target>
+      </trans-unit>
+      <trans-unit id="note-board.choose-note-topic" datatype="html">
+        <source>+ Wähle oder schreibe ein Thema</source>
+        <target>+ Choose or write a topic</target>
+      </trans-unit>
+      <trans-unit id="note-board.move-up" datatype="html">
+        <source>Nach oben schieben</source>
+        <target>Move up</target>
+      </trans-unit>
+      <trans-unit id="note-board.move-down" datatype="html">
+        <source>Nach unten schieben</source>
+        <target>Move down</target>
+      </trans-unit>
+      <trans-unit id="note-board.generate-question" datatype="html">
+        <source>Frage generieren</source>
+        <target>Generate question</target>
+      </trans-unit>
+      <trans-unit id="note-board-add.empty" datatype="html">
+        <source>Leeres Noteboard erstellen</source>
+        <target>Create an empty noteboard</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.basic-parameters.prepare-focus-topic" datatype="html">
+        <source>Fokusthema vorbereiten</source>
+        <target>Prepare focus topic</target>
+      </trans-unit>
+      <trans-unit id="note-board-delete.title" datatype="html">
+        <source>Team Guide löschen</source>
+        <target>Delete team guide</target>
+      </trans-unit>
+      <trans-unit id="note-board-delete.subtitle" datatype="html">
+        <source>Möchtest du den ausgewählten Team Guide wirklich löschen?</source>
+        <target>Do you really want to delete the selected team guide?</target>
+      </trans-unit>
+      <trans-unit id="topic-delete.title" datatype="html">
+        <source>Thema löschen</source>
+        <target>Delete topic</target>
+      </trans-unit>
+      <trans-unit id="topic-delete.subtitle" datatype="html">
+        <source>Möchtest du das ausgewählte Thema wirklich löschen?</source>
+        <target>Do you really want to delete the selected topic?</target>
+      </trans-unit>
+      <trans-unit id="topic-delete.subtitle2" datatype="html">
+        <source>Das Thema und alle Notizen zum Thema werden gelöscht.</source>
+        <target>The topic and all notes on the topic will be deleted.</target>
+      </trans-unit>
+      <trans-unit id="question-add.generate-question" datatype="html">
+        <source>Frage generieren</source>
+        <target>Generate question</target>
+      </trans-unit>
+      <trans-unit id="question-add.question-type" datatype="html">
+        <source>Wähle die Art der Frage</source>
+        <target>Choose the type of question</target>
+      </trans-unit>
+      <trans-unit id="question-add.question-type.cause" datatype="html">
+        <source>Frage zur Ursachenfindung</source>
+        <target>Question to find the cause</target>
+      </trans-unit>
+      <trans-unit id="question-add.question-type.solution" datatype="html">
+        <source>Frage zur Lösungsfindung</source>
+        <target>Question to find a solution</target>
+      </trans-unit>
+      <trans-unit id="question-add.hint" datatype="html">
+        <source>Hinweis: Die Frage ist KI generiert, auf Basis unserer Learnings aus der Community. Sollte sie mal nicht treffend sein, empfehlen wir eine nächste zu generieren.</source>
+        <target>Note: The question is AI generated, based on our learnings from the community. If it is ever inaccurate, we recommend generating a next one.</target>
+      </trans-unit>
+      <trans-unit id="value-result.last-quarter" datatype="html">
+        <source>zu letztem Quartal</source>
+        <target>vs last quarter</target>
+      </trans-unit>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
+        <target>Close</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <target>HH</target>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source>
+        <target>Close</target>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <target>««</target>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <target>Select month</target>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <target>Previous month</target>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source>
+          <x id="INTERPOLATION"/>
+        </source>
+        <target>
+          <x id="INTERPOLATION"/>
+        </target>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source>Slide <x id="INTERPOLATION"/> of <x id="INTERPOLATION_1"/></source>
+        <target>Slide <x id="INTERPOLATION"/> of <x id="INTERPOLATION_1"/></target>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <target>Hours</target>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <target>«</target>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <target>Previous</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <target>MM</target>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <target>»</target>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <target>Select year</target>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <target>Next month</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <target>Minutes</target>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <target>»»</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <target>Increment hours</target>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <target>First</target>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <target>Previous</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <target>Decrement hours</target>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <target>Next</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <target>Increment minutes</target>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <target>Last</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <target>Decrement minutes</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <target>SS</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <target>Seconds</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <target>Increment seconds</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <target>Decrement seconds</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source>
+          <x id="INTERPOLATION"/>
+        </source>
+        <target>
+          <x id="INTERPOLATION"/>
+        </target>
+      </trans-unit>
+      <trans-unit id="app.org-dashboard" datatype="html">
+        <source>Dashboard</source>
+        <target>Dashboard</target>
+      </trans-unit>
+      <trans-unit id="tc-complete.question.rule" datatype="html">
+        <source>Möchtest Du die folgende Regel als erledigt markieren?</source>
+        <target>Do you want to mark the following rule as completed?</target>
+      </trans-unit>
+      <trans-unit id="tc-complete.confirmation" datatype="html">
+        <source>Erledigt</source>
+        <target>Completed</target>
+      </trans-unit>
+      <trans-unit id="results.participation" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ participation.nAnswers }}"/> von <x id="INTERPOLATION_1" equiv-text="{{ participation.teamSize }}"/> Mitarbeitenden haben den <x id="INTERPOLATION_2" equiv-text="{{ company?.inboxName || &quot;Moodcheck&quot; }}"/> ausgefüllt.</source>
+        <target><x id="INTERPOLATION" equiv-text="{{ participation.nAnswers }}"/> out of <x id="INTERPOLATION_1" equiv-text="{{ participation.teamSize }}"/> employees have completed the <x id="INTERPOLATION_2" equiv-text="{{ company?.inboxName || &quot;Moodcheck&quot; }}"/>.</target>
+      </trans-unit>
+      <trans-unit id="topic-result.choose-topic" datatype="html">
+        <source>Thema wählen:</source>
+        <target>Choose topic:</target>
+      </trans-unit>
+      <trans-unit id="topic-result.action-needed" datatype="html">
+        <source>Aktion nötig</source>
+        <target>Action required</target>
+      </trans-unit>
+      <trans-unit id="topic-result.comments" datatype="html">
+        <source>Wo Teams Potenzial sehen:</source>
+        <target>Where teams see potential:</target>
+      </trans-unit>
+      <trans-unit id="topic-result.no-data" datatype="html">
+        <source>Nicht genügend Daten</source>
+        <target>Not enough data</target>
+      </trans-unit>
+      <trans-unit id="topic-result.actions" datatype="html">
+        <source>Wie Teams die Themen angehen:</source>
+        <target>How teams tackle the topics:</target>
+      </trans-unit>
+      <trans-unit id="show-more" datatype="html">
+        <source>Mehr anzeigen</source>
+        <target>Show More</target>
+      </trans-unit>
+      <trans-unit id="note-board.back-to-guides" datatype="html">
+        <source>Zurück zu allen Team Guides</source>
+        <target>Back to all Team Guides</target>
+      </trans-unit>
+      <trans-unit id="note-board.topic" datatype="html">
+        <source>Thema:</source>
+        <target>Topic:</target>
+      </trans-unit>
+      <trans-unit id="note-board.actions" datatype="html">
+        <source>Aktionen</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit id="note-board.add-topic" datatype="html">
+        <source>Neues Thema hinzufügen</source>
+        <target>Add new topic</target>
+      </trans-unit>
+      <trans-unit id="notes.hide-guides" datatype="html">
+        <source>Moderationsansicht schliessen</source>
+        <target>Close moderation view</target>
+      </trans-unit>
+      <trans-unit id="notes.show-guide" datatype="html">
+        <source>Guide anzeigen</source>
+        <target>Show Guide</target>
+      </trans-unit>
+      <trans-unit id="app.data-privacy.link" datatype="html">
+        <source>https://moodtalk.ch/datenschutzerklaerung</source>
+        <target>https://moodtalk.ch/datenschutzerklaerung</target>
+      </trans-unit>
+      <trans-unit id="team-change-modal.title" datatype="html">
+        <source>Deine Teams</source>
+        <target>Your teams</target>
+      </trans-unit>
+      <trans-unit id="inbox.forward.tooltip.disabled" datatype="html">
+        <source>Bitte beantworte die obige Frage, um fortzufahren.</source>
+        <target>Please answer the question above to continue.</target>
+      </trans-unit>
+      <trans-unit id="team-charta.report" datatype="html">
+        <source>Reporting Ansicht</source>
+        <target>Reporting view</target>
+      </trans-unit>
+      <trans-unit id="team-charta.no-successes" datatype="html">
+        <source>Ihr habt noch keine Regel als erledigt markiert.</source>
+        <target>You have not marked any rule as done yet.</target>
+      </trans-unit>
+      <trans-unit id="team-charta.load-more" datatype="html">
+        <source>Mehr laden</source>
+        <target>Load more</target>
+      </trans-unit>
+      <trans-unit id="org-dashboard.team-charta" datatype="html">
+        <source>Team Charta</source>
+        <target>Team Charter</target>
+      </trans-unit>
+      <trans-unit id="org-dashboard.rules" datatype="html">
+        <source>Regeln anzeigen</source>
+        <target>Show rules</target>
+      </trans-unit>
+      <trans-unit id="org-dashboard.team-charta-subtitle" datatype="html">
+        <source>Themen nach Kategorie</source>
+        <target state="new">Organizational and leadership topics</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.basic-parameters.nb-participants" datatype="html">
+        <source>Wie viele Personen werden am Moodtalk teilnehmen?</source>
+        <target>How many people will participate in the Moodtalk?</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.basic-parameters.time-planned" datatype="html">
+        <source>Wie viel Zeit habt ihr für den Moodtalk geplant?</source>
+        <target>How much time do you have planned for the Moodtalk?</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.next" datatype="html">
+        <source>Weiter</source>
+        <target>Next</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.basic-parameters.title" datatype="html">
+        <source>Fokusthema</source>
+        <target>Focus topic</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.basic-parameters.30-min" datatype="html">
+        <source>30 Minuten</source>
+        <target>30 minutes</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.basic-parameters.60-min" datatype="html">
+        <source>60 Minuten</source>
+        <target>60 minutes</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.basic-parameters.7-or-less" datatype="html">
+        <source>7 oder weniger</source>
+        <target>7 or less</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.basic-parameters.more-than-7" datatype="html">
+        <source>Mehr als 7</source>
+        <target>More than 7</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.context-parameters.hint" datatype="html">
+        <source>Du kannst ein Fokusthema für die Moderation auswählen. Die Kommentare zu diesem Thema werden für die Erstellung des Guides berücksichtigt.</source>
+        <target>You can select a focus topic for moderation. The comments on this topic will be taken into account for the creation of the guide.</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.context-parameters.select-topic-label" datatype="html">
+        <source>Wähle ein Fokusthema für die Diskussion</source>
+        <target>Choose a focus topic for the discussion</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.back" datatype="html">
+        <source>Zurück</source>
+        <target>Back</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.finished.title" datatype="html">
+        <source>Der Leitfaden für deine Moderation wurde gespeichert.</source>
+        <target>The guide for your moderation has been saved.</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.finished.access-info" datatype="html">
+        <source>Du kannst den Guide unter Team Guides aufrufen und jederzeit Änderungen vornehmen.</source>
+        <target>You can access the guide under Team Guides and make changes at any time.</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.finished.go-to-guide" datatype="html">
+        <source>Zum Guide</source>
+        <target>To the guide</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.preview.loading-text" datatype="html">
+        <source>Deine Moodtalk Moderation wird vorbereitet</source>
+        <target>Your Moodtalk moderation is being prepared right now</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.preview.regenerate" datatype="html">
+        <source>Neuen Smart Guide generieren</source>
+        <target>Generate new Smart Guide</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.preview.customize-label" datatype="html">
+        <source>Nicht zufrieden? Mach es persönlicher, indem du hier Anweisungen gibst</source>
+        <target>Not satisfied? Make it more personal by giving instructions here</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.preview.customize-error" datatype="html">
+        <source>Die Frage konnte leider nicht verarbeitet werden. Bitte versuche es erneut.</source>
+        <target>Sorry, the question could not be processed. Please try again.</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.preview.save-and-go-to-plan" datatype="html">
+        <source>Speichern &amp; zur Moderationsplanung gehen</source>
+        <target>Save &amp; go to moderation planning</target>
+      </trans-unit>
+      <trans-unit id="notes.guide-instructions" datatype="html">
+        <source>Diskussionspunkte:</source>
+        <target>Discussion points:</target>
+      </trans-unit>
+      <trans-unit id="notes.draft" datatype="html">
+        <source>Entwurf</source>
+        <target>Draft</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.basic-parameters.adjust-later" datatype="html">
+        <source>Du kannst die Anzahl der Teilnehmer und die Dauer später jederzeit anpassen.</source>
+        <target>You can always adjust the number of participants and the duration later.</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.basic-parameters.first-moodtalk" datatype="html">
+        <source>Erster Moodtalk</source>
+        <target>First Moodtalk</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.basic-parameters.title.first_moodtalk" datatype="html">
+        <source>Erster Moodtalk</source>
+        <target>First Moodtalk</target>
+      </trans-unit>
+      <trans-unit id="notes.first-moodtalk.start.title" datatype="html">
+        <source>Team Mood &amp; Resultate</source>
+        <target>Team Mood &amp; Results</target>
+      </trans-unit>
+      <trans-unit id="notes.first-moodtalk.start.understand-preparation" datatype="html">
+        <source>War die Vorbereitung für euch klar?</source>
+        <target>Was the preparation clear for you?</target>
+      </trans-unit>
+      <trans-unit id="notes.first-moodtalk.start.ice-breaker" datatype="html">
+        <source>Ice Breaker: Was war dein Highlight in den letzten 2 Wochen (privat / geschäftlich)?</source>
+        <target>Ice Breaker: What was your highlight in the last 2 weeks (private / business)?</target>
+      </trans-unit>
+      <trans-unit id="notes.first-moodtalk.focus-topic.title" datatype="html">
+        <source>Die erste Team Charta</source>
+        <target>The first Team Charter</target>
+      </trans-unit>
+      <trans-unit id="notes.first-moodtalk.focus-topic.check-inspiration" datatype="html">
+        <source>1. Betrachtet einige Beispiele auf der Team Charta über den Button &quot;Inspiration&quot;.</source>
+        <target>1. look at some examples on the Team Charter via the &quot;Inspiration&quot; button.</target>
+      </trans-unit>
+      <trans-unit id="notes.first-moodtalk.focus-topic.choose-topic" datatype="html">
+        <source>2. Wählt 2-3 Themen aus, welche euch wichtig sind (z.B. Meetingkultur oder Kommunikation)</source>
+        <target>2. select 2-3 topics that are important to you (e.g. meeting culture or communication)</target>
+      </trans-unit>
+      <trans-unit id="notes.first-moodtalk.focus-topic.brainstorm-rules" datatype="html">
+        <source>3. Jede Person nimmt sich 1 Minute Zeit: Welche konkreten Team Charta Regeln schlage ich zu den ausgewählten Themen vor?</source>
+        <target>3. each person takes 1 minute: What specific Team Charter rules do I propose for the selected topics?</target>
+      </trans-unit>
+      <trans-unit id="notes.first-moodtalk.focus-topic.vote-rules" datatype="html">
+        <source>4. Wählt jetzt 2-3 Regeln, z.B. über eine kurze Abstimmung, final aus.</source>
+        <target>4. now select 2-3 final rules, e.g. via a short vote.</target>
+      </trans-unit>
+      <trans-unit id="notes.first-moodtalk.focus-topic.write-rules" datatype="html">
+        <source>5. Optimiert die Formulierungen wenn nötig:</source>
+        <target>5. optimize the wording if necessary:</target>
+      </trans-unit>
+      <trans-unit id="notes.first-moodtalk.focus-topic.write-rules.where" datatype="html">
+        <source>In welcher Situation wird die Regel benötigt?</source>
+        <target>In which situation is the rule required?</target>
+      </trans-unit>
+      <trans-unit id="notes.first-moodtalk.focus-topic.write-rules.how-often" datatype="html">
+        <source>Wie oft kommt diese Regel zur Anwendung?</source>
+        <target>How often is this rule applied?</target>
+      </trans-unit>
+      <trans-unit id="notes.first-moodtalk.focus-topic.write-rules.alternative-title" datatype="html">
+        <source>Alternativ</source>
+        <target>Alternative?</target>
+      </trans-unit>
+      <trans-unit id="notes.first-moodtalk.focus-topic.write-rules.alternative-use-past-rules" datatype="html">
+        <source>Übernehmt Teamregeln, welche ihr in der Vergangenheit bereits aufgestellt habt.</source>
+        <target>Adopt team rules that you have already established in the past.</target>
+      </trans-unit>
+      <trans-unit id="notes.first-moodtalk.team-charta.title" datatype="html">
+        <source>Planung der nächsten Moodtalks</source>
+        <target>Plan the next Moodtalks</target>
+      </trans-unit>
+      <trans-unit id="notes.first-moodtalk.team-charta.next-focus-topic" datatype="html">
+        <source>Sammelt weitere Themen, welche ihr heute noch nicht besprechen konntet und schreibt diese hier direkt auf</source>
+        <target>Collect other topics that you have not yet been able to discuss today and write them down here directly</target>
+      </trans-unit>
+      <trans-unit id="notes.first-moodtalk.team-charta.next-moderator" datatype="html">
+        <source>Entscheidet, wann der nächste Moodtalk stattfindet und wer die Moderation übernimmt. Ergänzt den Zeitpunkt des nächsten Moodcheck E-Mail in den Einstellungen.</source>
+        <target>Decides when the next Moodtalk will take place and who will moderate it. Add the time of the next Moodcheck e-mail in the settings.</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.preview.title" datatype="html">
+        <source>Dein persönlicher Moderationsleitfaden (die Personalisierung dauert rund eine Minute):</source>
+        <target>Your personal moderation guide (personalization takes about one minute):</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.preview.example-prompts.charta.label" datatype="html">
+        <source>Team Charta Beispiele hinzufügen</source>
+        <target>Add Team Charter examples</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.preview.example-prompts.charta.prompt" datatype="html">
+        <source>Füge 2 Beispiele von möglichen Regeln für eine Team Charta ein</source>
+        <target>Insert 2 examples of possible rules for a team charter</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.preview.example-prompts.make-simpler.label" datatype="html">
+        <source>Einfacher machen</source>
+        <target>Make it easier</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.preview.example-prompts.make-simpler.prompt" datatype="html">
+        <source>Mache den Guide einfacher</source>
+        <target>Make the guide easier</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.preview.example-prompts.fun.label" datatype="html">
+        <source>Spass Element hinzufügen</source>
+        <target>Add fun element</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.preview.example-prompts.fun.prompt" datatype="html">
+        <source>Füge eine kurze und spassige Teamübung zum ersten Schritt der Moderation hinzu</source>
+        <target>Add a short and fun team exercise to the first step of the moderation</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.moderation" datatype="html">
+        <source>Moderation</source>
+        <target>Moderator</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.select-moderator" datatype="html">
+        <source>Wähle die Moderation</source>
+        <target>Select moderator</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.text3" datatype="html">
+        <source>Benutzerdefinierte Daten werden nicht angepasst.</source>
+        <target>User-defined data will not be adjusted.</target>
+      </trans-unit>
+      <trans-unit id="team-charta.no-rules" datatype="html">
+        <source>Ihr habt noch keine Team Charta Regeln definiert. Klicke auf Weiter um die Frage zu überspringen.</source>
+        <target>You have not yet defined any team charter rules. Click Next to skip this question.</target>
+      </trans-unit>
+      <trans-unit id="results.send-reminder" datatype="html">
+        <source>Reminder senden</source>
+        <target>Send reminder</target>
+      </trans-unit>
+      <trans-unit id="results.sent-reminder" datatype="html">
+        <source>Reminder gesendet</source>
+        <target>Reminder sent</target>
+      </trans-unit>
+      <trans-unit id="re-generate-guide.title" datatype="html">
+        <source>Neuen Smart Guide generieren</source>
+        <target>Generate new Smart Guide</target>
+      </trans-unit>
+      <trans-unit id="re-generate-guide.text" datatype="html">
+        <source>Möchtest du den aktuellen Smart Guide verwerfen und einen neuen Smart Guide generieren?</source>
+        <target>Would you like to discard the current Smart Guide and generate a new Smart Guide?</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.preview.generate-error" datatype="html">
+        <source>Deine Moodtalk Moderation konnte leider nicht erstellt werden. Bitte versuche es erneut.</source>
+        <target>Your Moodtalk moderation could not be created. Please try again.</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.type" datatype="html">
+        <source>Umfragetyp</source>
+        <target>Survey type</target>
+      </trans-unit>
+      <trans-unit id="survey-type-modal.title" datatype="html">
+        <source>Umfragetyp wählen</source>
+        <target>Choose survey type</target>
+      </trans-unit>
+      <trans-unit id="survey-type-modal.question" datatype="html">
+        <source>Was für eine Umfrage möchtest du durchführen?</source>
+        <target>What type of survey would you like to conduct?</target>
+      </trans-unit>
+      <trans-unit id="survey-type-modal.focus-tag" datatype="html">
+        <source>Wähle das Fokusthema</source>
+        <target>Choose the focus topic</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.basic-parameters.type" datatype="html">
+        <source>Welche Art Moodtalk möchtest du generieren?</source>
+        <target>What kind of moodtalk would you like to generate?</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.moderation-guide.preview.save-and-go-to-plan" datatype="html">
+        <source>Speichern &amp; zur Moderationsplanung gehen</source>
+        <target>Save &amp; go to moderation planning</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.basic-parameters.review-team-charter" datatype="html">
+        <source>Team Charta überprüfen</source>
+        <target>Review Team Charter</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.basic-parameters.short-check-in" datatype="html">
+        <source>Kurzes Team Check-in</source>
+        <target>Short team check-in</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.basic-parameters.title.focus_topic" datatype="html">
+        <source>Fokusthema</source>
+        <target>Focus topic</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.basic-parameters.title.team_charter" datatype="html">
+        <source>Team Charta überarbeiten</source>
+        <target>Revise Team Charter</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.basic-parameters.title.team_check_in" datatype="html">
+        <source>Team Check-in</source>
+        <target>Team Check-in</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.basic-parameters.title.empty" datatype="html">
+        <source>Moodtalk</source>
+        <target>Moodtalk</target>
+      </trans-unit>
+      <trans-unit id="notes.team-charter.title" datatype="html">
+        <source>Team Charta</source>
+        <target>Team Charter</target>
+      </trans-unit>
+      <trans-unit id="notes.team-charter.goal" datatype="html">
+        <source>Geht einmal durch alle Regeln auf der Team Charta und tauscht euch darüber aus, wie ihr diese aktualisieren möchtet.</source>
+        <target>Go through all the rules on the Team Charter once and discuss how you would like to update them.</target>
+      </trans-unit>
+      <trans-unit id="notes.team-charter.green-rules-title" datatype="html">
+        <source>Grüne Regeln:</source>
+        <target>Green rules:</target>
+      </trans-unit>
+      <trans-unit id="notes.team-charter.green-rules-is-important" datatype="html">
+        <source>Ist das eine Regel welche uns generell wichtig ist oder möchten wir die Regel als erledigt markieren?</source>
+        <target>Is this a rule that is generally important to us or do we want to mark the rule as completed?</target>
+      </trans-unit>
+      <trans-unit id="notes.team-charter.yellow-rules-reflect-efficiency" datatype="html">
+        <source>Jede Person nimmt sich eine Minute Zeit, um sich zu notieren, was an der Regel effizient ist und was nicht. Geht anschliessend einmal durch die Runde, um die Punkte zu sammeln.</source>
+        <target>Each person takes one minute to note down what is efficient about the rule and what is not. Then go around the room once to collect the points.</target>
+      </trans-unit>
+      <trans-unit id="notes.team-charter.yellow-rules-rewrite" datatype="html">
+        <source>Falls ja, notiert sich jede Person ein Beispiel, wie die Regel umformuliert werden kann, damit sie im Alltag praktisch umsetzbar ist.</source>
+        <target>If so, each person writes down an example of how the rule can be reformulated so that it can be put into practice in everyday life.</target>
+      </trans-unit>
+      <trans-unit id="notes.first-moodtalk.review.review-positives" datatype="html">
+        <source>Verschafft euch einen Überblick über die positiven Themen, die Themen zu verbessern und alle Kommentare ohne tiefergehende Diskussion.</source>
+        <target>Get an overview of the positive topics, the topics to improve and all comments without in-depth discussion.</target>
+      </trans-unit>
+      <trans-unit id="notes.team-charter.yellow-red-rules-title" datatype="html">
+        <source>Gelbe und rote Regeln:</source>
+        <target>Yellow and red rules:</target>
+      </trans-unit>
+      <trans-unit id="notes.team-charter.yellow-rules-vote" datatype="html">
+        <source>Stimmt darüber ab, ob ihr die Regel weiterhin behalten möchtet.</source>
+        <target>Vote on whether you want to keep the rule.</target>
+      </trans-unit>
+      <trans-unit id="app.org-initiatives" datatype="html">
+        <source>Initiativen</source>
+        <target>Initiatives</target>
+      </trans-unit>
+      <trans-unit id="initiative.type.MOODTALK" datatype="html">
+        <source>Moodtalk</source>
+        <target>Moodtalk</target>
+      </trans-unit>
+      <trans-unit id="initiative.type.SURVEY" datatype="html">
+        <source>Befragung</source>
+        <target>Survey</target>
+      </trans-unit>
+      <trans-unit id="initiative.type.CONTENT_OFFERING" datatype="html">
+        <source>Inhaltsangebot</source>
+        <target>Content offering</target>
+      </trans-unit>
+      <trans-unit id="initiative.type.EXTERNAL_COACH" datatype="html">
+        <source>Externes Coaching</source>
+        <target>External coaching</target>
+      </trans-unit>
+      <trans-unit id="initiative.type.INTERNAL_COACH" datatype="html">
+        <source>Internes Coaching</source>
+        <target>Internal coaching</target>
+      </trans-unit>
+      <trans-unit id="initiative.type.HR_BUSINESS_PARTNER" datatype="html">
+        <source>HR Business Partner</source>
+        <target>HR Business Partner</target>
+      </trans-unit>
+      <trans-unit id="initiative.timing.DEFINED" datatype="html">
+        <source>Definierter Zeitraum</source>
+        <target>Defined Timespan</target>
+      </trans-unit>
+      <trans-unit id="initiative.timing.CONTINUOUS" datatype="html">
+        <source>Kontinuierlich</source>
+        <target>Continuous</target>
+      </trans-unit>
+      <trans-unit id="initiative.goal.TEAM_COLLAB" datatype="html">
+        <source>Team-interne Zusammenarbeit</source>
+        <target>In-team collaboration</target>
+      </trans-unit>
+      <trans-unit id="initiative.goal.CROSS_TEAM_COLLAB" datatype="html">
+        <source>Teamübergreifende Zusammenarbeit</source>
+        <target>Cross-team cusammenarbeit</target>
+      </trans-unit>
+      <trans-unit id="initiative.goal.DIVERSITY_INCLUSION" datatype="html">
+        <source>Diversität und Inklusion</source>
+        <target>Diversity and inclusion</target>
+      </trans-unit>
+      <trans-unit id="initiative.goal.EMPLOYEE_DEVELOPMENT" datatype="html">
+        <source>Mitarbeitendenentwicklung</source>
+        <target>Employee development</target>
+      </trans-unit>
+      <trans-unit id="initiative.goal.EMPLOYEE_HEALTH" datatype="html">
+        <source>Gesundheit der Mitarbeitenden</source>
+        <target>Employee health</target>
+      </trans-unit>
+      <trans-unit id="initiative.goal.EMPLOYEE_RECOGNITION" datatype="html">
+        <source>Anerkennung von Mitarbeitenden</source>
+        <target>Employee recognition</target>
+      </trans-unit>
+      <trans-unit id="initiative.goal.EMPLOYEE_WELLBEING" datatype="html">
+        <source>Wohlbefinden von Mitarbeitenden</source>
+        <target>Employee wellbeing</target>
+      </trans-unit>
+      <trans-unit id="initiative.goal.WORK_ENVIRONMENT" datatype="html">
+        <source>Arbeitsumfeld</source>
+        <target>Work environment</target>
+      </trans-unit>
+      <trans-unit id="initiative.kpi.PRODUCTIVITY" datatype="html">
+        <source>Produktivität</source>
+        <target>Productivity</target>
+      </trans-unit>
+      <trans-unit id="initiative.kpi.ABSENCE_DAYS" datatype="html">
+        <source>Absenztage</source>
+        <target>Absence days</target>
+      </trans-unit>
+      <trans-unit id="initiative.kpi.CUSTOMER_SATISFACTION" datatype="html">
+        <source>Kundenzufriedenheit</source>
+        <target>Customer satisfaction</target>
+      </trans-unit>
+      <trans-unit id="initiative.kpi.EMPLOYEE_RETENTION" datatype="html">
+        <source>Mitarbeitendenbindung</source>
+        <target>Employee retention</target>
+      </trans-unit>
+      <trans-unit id="initiative.user-function.HR" datatype="html">
+        <source>HR</source>
+        <target>HR</target>
+      </trans-unit>
+      <trans-unit id="initiative.user-function.CORPORATE_DEVELOPMENT" datatype="html">
+        <source>Unternehmensentwicklung</source>
+        <target>Corporate development</target>
+      </trans-unit>
+      <trans-unit id="initiative.user-function.LINE" datatype="html">
+        <source>Linie</source>
+        <target>Line</target>
+      </trans-unit>
+      <trans-unit id="initiative.user-function.SENIOR_MANAGEMENT" datatype="html">
+        <source>Geschäftsleitung</source>
+        <target>Senior management</target>
+      </trans-unit>
+      <trans-unit id="initiative.create" datatype="html">
+        <source>Initiative erstellen</source>
+        <target>Create initiative</target>
+      </trans-unit>
+      <trans-unit id="initiative.name.placeholder" datatype="html">
+        <source>Name der Initiative</source>
+        <target>Initiative name</target>
+      </trans-unit>
+      <trans-unit id="initiative.description" datatype="html">
+        <source>Beschreibung</source>
+        <target>Description</target>
+      </trans-unit>
+      <trans-unit id="initiative.start-date" datatype="html">
+        <source>Start Datum</source>
+        <target>Start date</target>
+      </trans-unit>
+      <trans-unit id="initiative.deadline" datatype="html">
+        <source>Deadline</source>
+        <target>Deadline</target>
+      </trans-unit>
+      <trans-unit id="initiative.owner" datatype="html">
+        <source>Owner</source>
+        <target>Owner</target>
+      </trans-unit>
+      <trans-unit id="initiative.owner.name.placeholder" datatype="html">
+        <source>Owner Name</source>
+        <target>Owner name</target>
+      </trans-unit>
+      <trans-unit id="initiative.owner.function" datatype="html">
+        <source>Owner Funktion</source>
+        <target>Owner function</target>
+      </trans-unit>
+      <trans-unit id="initiative.type" datatype="html">
+        <source>Typ der Initiative</source>
+        <target>Initiative type</target>
+      </trans-unit>
+      <trans-unit id="create" datatype="html">
+        <source>Erstellen</source>
+        <target>Create</target>
+      </trans-unit>
+      <trans-unit id="initiative-detail.title" datatype="html">
+        <source>Initiative bearbeiten</source>
+        <target>Edit initiative</target>
+      </trans-unit>
+      <trans-unit id="initiative.targetGroup" datatype="html">
+        <source>Zielgruppe</source>
+        <target>Target group</target>
+      </trans-unit>
+      <trans-unit id="initiative.targetResult" datatype="html">
+        <source>Ziel Ergebnis</source>
+        <target>Target result</target>
+      </trans-unit>
+      <trans-unit id="initiative.title" datatype="html">
+        <source>Initiativen</source>
+        <target>Initiatives</target>
+      </trans-unit>
+      <trans-unit id="initiative.ongoing" datatype="html">
+        <source>Aktiv</source>
+        <target>Active</target>
+      </trans-unit>
+      <trans-unit id="initiative.planned" datatype="html">
+        <source>Geplant</source>
+        <target>Planned</target>
+      </trans-unit>
+      <trans-unit id="initiative.completed" datatype="html">
+        <source>Abgeschlossen</source>
+        <target>Completed</target>
+      </trans-unit>
+      <trans-unit id="initiative.progress" datatype="html">
+        <source>Fortschritt</source>
+        <target>Progress</target>
+      </trans-unit>
+      <trans-unit id="initiative.goal" datatype="html">
+        <source>Hauptziel</source>
+        <target>Main goal</target>
+      </trans-unit>
+      <trans-unit id="initiative.show-details" datatype="html">
+        <source>Details</source>
+        <target>Details</target>
+      </trans-unit>
+      <trans-unit id="initiative.empty-state" datatype="html">
+        <source>Es wurden noch keine Initiativen erfasst.</source>
+        <target>No initiatives have been created.</target>
+      </trans-unit>
+      <trans-unit id="validation.required" datatype="html">
+        <source>Dies ist ein Pflichtfeld</source>
+        <target>This field is required</target>
+      </trans-unit>
+      <trans-unit id="validation.minLength" datatype="html">
+        <source>Die Mindestlänge beträgt <x id="PH" equiv-text="this.formControl.errors.minlength.requiredLength"/> Zeichen</source>
+        <target>The minimum length is <x id="PH" equiv-text="this.formControl.errors.minlength.requiredLength"/> characters</target>
+      </trans-unit>
+      <trans-unit id="validation.min" datatype="html">
+        <source>Das Minimum ist <x id="PH" equiv-text="this.formControl.errors.min.min"/>.</source>
+        <target>The minimum is <x id="PH" equiv-text="this.formControl.errors.min.min"/>.</target>
+      </trans-unit>
+      <trans-unit id="validation.max" datatype="html">
+        <source>Das Maximum ist <x id="PH" equiv-text="this.formControl.errors.max.max"/>.</source>
+        <target>The maximum is <x id="PH" equiv-text="this.formControl.errors.max.max"/>.</target>
+      </trans-unit>
+      <trans-unit id="validation.integer" datatype="html">
+        <source>Es muss eine ganze Zahl eingegeben werden.</source>
+        <target>The input has to be a whole number.</target>
+      </trans-unit>
+      <trans-unit id="validation.pattern" datatype="html">
+        <source>Es muss folgendes Format verwendet werden: <x id="PH" equiv-text="this.formControl?.errors?.pattern.requiredPattern"/>.</source>
+        <target>The input has to follow the pattern: <x id="PH" equiv-text="this.formControl?.errors?.pattern.requiredPattern"/>.</target>
+      </trans-unit>
+      <trans-unit id="back-to-overview" datatype="html">
+        <source>Zurück zur Übersicht</source>
+        <target>Back to the overview</target>
+      </trans-unit>
+      <trans-unit id="initiative.owner.name" datatype="html">
+        <source>Owner Name</source>
+        <target>Owner name</target>
+      </trans-unit>
+      <trans-unit id="initiative.timespan" datatype="html">
+        <source>Zeitdauer</source>
+        <target>Timespan</target>
+      </trans-unit>
+      <trans-unit id="initiative.start" datatype="html">
+        <source>Start</source>
+        <target>Start</target>
+      </trans-unit>
+      <trans-unit id="initiative.investmentMoney" datatype="html">
+        <source>Investierter Betrag</source>
+        <target>Invested amount</target>
+      </trans-unit>
+      <trans-unit id="initiative.investmentDays" datatype="html">
+        <source>Investierte Arbeitstage</source>
+        <target>Invested workdays</target>
+      </trans-unit>
+      <trans-unit id="initiative.impactMoney" datatype="html">
+        <source>Monetärer Impact</source>
+        <target>Monetary impact</target>
+      </trans-unit>
+      <trans-unit id="initiative.outcomeKPIs" datatype="html">
+        <source>Outcome KPIs</source>
+        <target>Outcome KPIs</target>
+      </trans-unit>
+      <trans-unit id="initiative.progress.placeholder" datatype="html">
+        <source>Fortschritt 0% - 100%</source>
+        <target>Progress 0% - 100%</target>
+      </trans-unit>
+      <trans-unit id="results-with-metadata.survey" datatype="html">
+        <source>Umfrage auswählen:</source>
+        <target>Choose survey:</target>
+      </trans-unit>
+      <trans-unit id="app.logout" datatype="html">
+        <source>Logout</source>
+        <target>Logout</target>
+      </trans-unit>
+      <trans-unit id="initiative.description.placeholder" datatype="html">
+        <source>Beschreibung der Initiative</source>
+        <target>Initiative description</target>
+      </trans-unit>
+      <trans-unit id="editable-label-modal.invididual-label" datatype="html">
+        <source>Individuelle Bezeichnung</source>
+        <target>Individual label</target>
+      </trans-unit>
+      <trans-unit id="editable-label-modal.reset-text" datatype="html">
+        <source>Zurücksetzen auf Originaltext</source>
+        <target>Reset to original text</target>
+      </trans-unit>
+      <trans-unit id="editable-label-modal.confirm" datatype="html">
+        <source>Bezeichnung speichern</source>
+        <target>Save description</target>
+      </trans-unit>
+      <trans-unit id="validation.maxLength" datatype="html">
+        <source>Die Maximallänge beträgt <x id="PH" equiv-text="this.formControl.errors.maxlength.requiredLength"/> Zeichen</source>
+        <target>The maximum length is <x id="PH" equiv-text="this.formControl.errors.maxlength.requiredLength"/> characters</target>
+      </trans-unit>
+      <trans-unit id="tt-add.topic" datatype="html">
+        <source>Thema</source>
+        <target>Topic</target>
+      </trans-unit>
+      <trans-unit id="tt-add.rule" datatype="html">
+        <source>Regel</source>
+        <target>Commitment</target>
+      </trans-unit>
+      <trans-unit id="team-charta-topic.commitment-placeholder" datatype="html">
+        <source>Schreibe hier deine Regel</source>
+        <target>Write your rule here</target>
+      </trans-unit>
+      <trans-unit id="survey-type-modal.focustag_missing" datatype="html">
+        <source>Bitte wähle zuerst ein Fokusthema aus.</source>
+        <target>Please select a focus topic first.</target>
+      </trans-unit>
+      <trans-unit id="app.new-moodcheck" datatype="html">
+        <source>Neuer Moodcheck</source>
+        <target>New Moodcheck</target>
+      </trans-unit>
+      <trans-unit id="app.edit-last-moodcheck" datatype="html">
+        <source>Moodcheck bearbeiten</source>
+        <target>Edit Moodcheck</target>
+      </trans-unit>
+      <trans-unit id="moderation-guide.adjust-guide" datatype="html">
+        <source>Guide anpassen</source>
+        <target>Customize guide</target>
+      </trans-unit>
+      <trans-unit id="results.edit-last-results" datatype="html">
+        <source>Meine letzten Antworten bearbeiten</source>
+        <target>Edit my last answers</target>
+      </trans-unit>
+      <trans-unit id="validation.alreadyPresent" datatype="html">
+        <source>Existiert bereits.</source>
+        <target>Already exists.</target>
+      </trans-unit>
+      <trans-unit id="validation.email" datatype="html">
+        <source>Es muss eine gültige Email Adresse eingegeben werden.</source>
+        <target>The input has to be a valid email address.</target>
+      </trans-unit>
+      <trans-unit id="tag-edit.add-topic" datatype="html">
+        <source>Thema hinzufügen</source>
+        <target>Create custom topic</target>
+      </trans-unit>
+      <trans-unit id="tag-edit.edit-topic" datatype="html">
+        <source>Eigenes Thema bearbeiten</source>
+        <target>Edit custom topic</target>
+      </trans-unit>
+      <trans-unit id="tag-edit.topic" datatype="html">
+        <source>Thema</source>
+        <target>Topic</target>
+      </trans-unit>
+      <trans-unit id="tag-edit.topic-placeholder" datatype="html">
+        <source>Name vom eigenen Thema</source>
+        <target>Custom topic name</target>
+      </trans-unit>
+      <trans-unit id="tag-edit.save-topic" datatype="html">
+        <source>Thema speichern</source>
+        <target>Save topic</target>
+      </trans-unit>
+      <trans-unit id="tags-edit.our-topics" datatype="html">
+        <source>Unsere Themen</source>
+        <target>Our topics</target>
+      </trans-unit>
+      <trans-unit id="tags-edit.our-topics.explanation" datatype="html">
+        <source>Nachfolgend könnt ihr die Basisthemen für euer Team aus verschiedenen Sets auswählen. Diese gelten für den Moodcheck, die Team Charta und die Moderations Guides.</source>
+        <target>Below you can select the basic topics for your team from various sets. These apply to the mood check, the team charter and the moderation guides.</target>
+      </trans-unit>
+      <trans-unit id="tags-edit.no-topics" datatype="html">
+        <source>Keine Themen vorhanden</source>
+        <target>No topics available</target>
+      </trans-unit>
+      <trans-unit id="tags-edit.team-topics" datatype="html">
+        <source>Eigenes Themenset</source>
+        <target>Own theme set</target>
+      </trans-unit>
+      <trans-unit id="tag-select.add-topic" datatype="html">
+        <source>+ eigenes Thema hinzufügen</source>
+        <target>+ Add your own topic</target>
+      </trans-unit>
+      <trans-unit id="tags-edit.our-topics.no-delete-explanation" datatype="html">
+        <source>Wenn ein Thema ausgeblendet wird, werden keine bestehenden Inhalte gelöscht.</source>
+        <target>If a topic is hidden, no existing content will be deleted.</target>
+      </trans-unit>
+      <trans-unit id="tags-edit.standard-topics" datatype="html">
+        <source>Standard Themenset</source>
+        <target>Standard topic set</target>
+      </trans-unit>
+      <trans-unit id="tags-edit.organisation-topics" datatype="html">
+        <source>Organisations-Themenset</source>
+        <target>Organization topic set</target>
+      </trans-unit>
+      <trans-unit id="tags-edit.add-topic" datatype="html">
+        <source>+ Thema hinzufügen</source>
+        <target>+ Add your own topic</target>
+      </trans-unit>
+      <trans-unit id="tag-select.placeholder" datatype="html">
+        <source>Wähle hier das Thema</source>
+        <target>Select the topic here</target>
+      </trans-unit>
+      <trans-unit id="note-board.acquire-lock-modal.title" datatype="html">
+        <source>Guide bearbeiten</source>
+        <target>Edit guide</target>
+      </trans-unit>
+      <trans-unit id="note-board.acquire-lock-modal.explanation1" datatype="html">
+        <source>Nur eine Person kann den Guide zur selben Zeit bearbeiten.</source>
+        <target>Only one person can edit the guide at a time.</target>
+      </trans-unit>
+      <trans-unit id="note-board.acquire-lock-modal.explanation2" datatype="html">
+        <source>Wenn du auf &quot;Kontrolle übernehmen&quot; klickst, kann <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ lockInfo?.lockedByEmployee?.email }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> den Guide nicht mehr bearbeiten.</source>
+        <target>If you click on &quot;Take control&quot;, <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ lockInfo? .lockedByEmployee?.email }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> no longer edit the guide.</target>
+      </trans-unit>
+      <trans-unit id="note-board.take-control-button" datatype="html">
+        <source>Kontrolle übernehmen</source>
+        <target>Take control</target>
+      </trans-unit>
+      <trans-unit id="note-board.write-lock-info" datatype="html">
+        <source>Dieser Guide wird aktuell von <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ lockInfo.lockedByEmployee?.email }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> bearbeitet.</source>
+        <target>This guide is currently being edited by <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ lockInfo.lockedByEmployee?.email }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</target>
+      </trans-unit>
+      <trans-unit id="print" datatype="html">
+        <source>Drucken</source>
+        <target>Print</target>
+      </trans-unit>
+      <trans-unit id="tag-edit.add-own-topic" datatype="html">
+        <source>Eigenes Thema hinzufügen</source>
+        <target>Add your own topic</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.plan-moodtalk" datatype="html">
+        <source>Moodtalk planen</source>
+        <target>Plan Moodtalk</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.next-email" datatype="html">
+        <source>Nächste Email: <x id="INTERPOLATION" equiv-text="{{ nextMoodchecks[0].date | date: &quot;dd MMM&quot; }}"/></source>
+        <target>Next Email: <x id="INTERPOLATION" equiv-text="{{ nextMoodchecks[0].date | date: &quot;dd MMM&quot; }}"/></target>
+      </trans-unit>
+      <trans-unit id="survey-settings.date" datatype="html">
+        <source>Datum E-Mail</source>
+        <target>Email Date</target>
+      </trans-unit>
+      <trans-unit id="healthcheck-results.title" datatype="html">
+        <source>HealthCheck Resultat</source>
+        <target>HealthCheck result</target>
+      </trans-unit>
+      <trans-unit id="healthcheck-results.traffic-light" datatype="html">
+        <source>Deine Ampel steht auf</source>
+        <target>Your traffic light is on</target>
+      </trans-unit>
+      <trans-unit id="healthcheck-results.red" datatype="html">
+        <source>rot</source>
+        <target>red</target>
+      </trans-unit>
+      <trans-unit id="healthcheck-results.red.text" datatype="html">
+        <source>Das Ergebnis deutet darauf hin, dass du aktuell stark belastet bist oder deiner Gesundheit zu wenig Aufmerksamkeit schenkst.</source>
+        <target>The result indicates that you are currently under a lot of stress or are paying too little attention to your health.</target>
+      </trans-unit>
+      <trans-unit id="healthcheck-results.red.cta" datatype="html">
+        <source>Nimm Deine persönliche Gesundheit in die Hand. Nutze jetzt eines der folgenden, kostenlosen und anonymen Angebote:</source>
+        <target>Take your personal health into your own hands. Take advantage of one of the following free and anonymous offers now:</target>
+      </trans-unit>
+      <trans-unit id="healthcheck-results.action-button" datatype="html">
+        <source>Zu den Angeboten</source>
+        <target>To the offers</target>
+      </trans-unit>
+      <trans-unit id="healthcheck-results.yellow" datatype="html">
+        <source>gelb</source>
+        <target>yellow</target>
+      </trans-unit>
+      <trans-unit id="healthcheck-results.yellow.text" datatype="html">
+        <source>Das Ergebnis deutet darauf hin, dass Deine Belastungen aktuell hoch sind. Zurzeit scheinst Du aber immer noch ausreichend Ressourcen zu haben, um die Belastungen auszuhalten.</source>
+        <target>The result indicates that your stress levels are currently high. At the moment, however, you still seem to have sufficient resources to cope with the stress.</target>
+      </trans-unit>
+      <trans-unit id="healthcheck-results.yellow.cta" datatype="html">
+        <source>Möchtest du erfahren, wie du deine mentale Gesundheit stärken kannst? Nutze jetzt eines der folgenden, kostenlosen und anonymen Angebote:</source>
+        <target>Would you like to find out how you can strengthen your mental health? Take advantage of one of the following free and anonymous offers now:</target>
+      </trans-unit>
+      <trans-unit id="healthcheck-results.green" datatype="html">
+        <source>grün</source>
+        <target>green</target>
+      </trans-unit>
+      <trans-unit id="healthcheck-results.green.text" datatype="html">
+        <source>Herzliche Gratulation, Du achtest auf einen gesunden Lebensstil und scheinst über grosse gesundheitliche Ressourcen zu verfügen.</source>
+        <target>Congratulations, you pay attention to a healthy lifestyle and seem to have plenty of health resources at your disposal.</target>
+      </trans-unit>
+      <trans-unit id="healthcheck-results.green.cta" datatype="html">
+        <source>Entspricht dieses Resultat nicht deiner eigenen Einschätzung oder hast du spezifische Fragen zu einem Gesundheitsthema? Nutze jetzt eines der folgenden, kostenlosen und anonymen Angebote:</source>
+        <target>Does this result not match your own assessment or do you have specific questions on a health topic? Take advantage of one of the following free and anonymous offers now:</target>
+      </trans-unit>
+      <trans-unit id="healthcheck-results.not-available" datatype="html">
+        <source>Das Resultat deines HealthChecks ist noch nicht verfügbar. Bitte versuche es später noch einmal.</source>
+        <target>The result of your HealthCheck is not yet available. Please try again later.</target>
+      </trans-unit>
+      <trans-unit id="add-employee.send-current-email" datatype="html">
+        <source>Email für aktuelle Umfrage versenden</source>
+        <target>Send email for current survey</target>
+      </trans-unit>
+      <trans-unit id="integration-settings.title" datatype="html">
+        <source>Integrationen</source>
+        <target>Integrations</target>
+      </trans-unit>
+      <trans-unit id="integration-settings.microsoft.explanation" datatype="html">
+        <source>Automatisches erstellen von Terminen für eure Moodtalks.</source>
+        <target>Automatically create events for your Moodtalks.</target>
+      </trans-unit>
+      <trans-unit id="integration-settings.authorize" datatype="html">
+        <source>Authorisieren</source>
+        <target>Authorize</target>
+      </trans-unit>
+      <trans-unit id="survey-delete-modal.title" datatype="html">
+        <source>Möchtest du den folgenden Moocheck wirklich löschen?</source>
+        <target>Do you really want to delete the following Moodcheck?</target>
+      </trans-unit>
+      <trans-unit id="survey-delete-modal.text.1" datatype="html">
+        <source>Der Moodcheck vom</source>
+        <target>The Moodcheck from</target>
+      </trans-unit>
+      <trans-unit id="survey-delete-modal.text.2" datatype="html">
+        <source>wird unwiderruflich gelöscht.</source>
+        <target>will be irrevocably deleted.</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.moodtalk-date" datatype="html">
+        <source>Datum Moodtalk</source>
+        <target>Moodtalk date</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.not-defined" datatype="html">
+        <source>Nicht definiert</source>
+        <target>Not defined</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.edit" datatype="html">
+        <source>Bearbeiten</source>
+        <target>Edit</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.load-more" datatype="html">
+        <source>Mehr laden</source>
+        <target>Load more</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.date-picker.placeholder" datatype="html">
+        <source>Datum wählen</source>
+        <target>Select date</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.moodtalk-time" datatype="html">
+        <source>Zeit Moodtalk</source>
+        <target>Time Moodtalk</target>
+      </trans-unit>
+      <trans-unit id="validation.min-date" datatype="html">
+        <source>Das Datum muss am oder nach dem <x id="PH" equiv-text="minDate"/> liegen.</source>
+        <target>The date must be on or after the <x id="PH" equiv-text="minDate"/>.</target>
+      </trans-unit>
+      <trans-unit id="validation.max-date" datatype="html">
+        <source>Das Datum muss vor oder an dem <x id="PH" equiv-text="maxDate"/> liegen.</source>
+        <target>The date must be before or on the <x id="PH" equiv-text="maxDate"/>.</target>
+      </trans-unit>
+      <trans-unit id="integration-settings.remove-connection" datatype="html">
+        <source>Verbindung trennen</source>
+        <target>Disconnect</target>
+      </trans-unit>
+      <trans-unit id="input.optional" datatype="html">
+        <source>(optional)</source>
+        <target>(optional)</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.synchronized" datatype="html">
+        <source>Synchronisiert mit Office 365</source>
+        <target>Syncronizes with Office 365</target>
+      </trans-unit>
+      <trans-unit id="integration-settings.authorized" datatype="html">
+        <source>Authorisiert</source>
+        <target>Authorized</target>
+      </trans-unit>
+      <trans-unit id="tc-topic-remove.question.topic" datatype="html">
+        <source>Möchtest Du das folgende Thema wirklich löschen?</source>
+        <target>Do you really want to delete the following topic?</target>
+      </trans-unit>
+      <trans-unit id="tc-topic-remove.warning-commitments" datatype="html">
+        <source>Dabei werden auch alle zugehörigen Regeln gelöscht.</source>
+        <target>This also deletes all associated rules.</target>
+      </trans-unit>
+      <trans-unit id="delete-topic" datatype="html">
+        <source>Thema löschen</source>
+        <target>Delete topic</target>
+      </trans-unit>
+      <trans-unit id="team-charta.topic.no-commitments-report-view" datatype="html">
+        <source>Ihr habt noch keine Regel für dieses Thema erstellt.</source>
+        <target>You have not yet created a rule for this topic.</target>
+      </trans-unit>
+      <trans-unit id="team-charta.topic.no-commitments" datatype="html">
+        <source>Füge über den Button &quot;+ Regel hinzufügen&quot; eine neue Regel hinzu.</source>
+        <target>Add a new rule using the &quot;+ Add rule&quot; button.</target>
+      </trans-unit>
+      <trans-unit id="tt-add.topic-to-rule" datatype="html">
+        <source>Regel zu diesem Thema hinzufügen</source>
+        <target>Add rule to this topic</target>
+      </trans-unit>
+      <trans-unit id="link-error.title" datatype="html">
+        <source>Link abgelaufen</source>
+        <target>Link expired</target>
+      </trans-unit>
+      <trans-unit id="link-error.text" datatype="html">
+        <source>Der aufgerufene Link ist nicht mehr gültig. Klicke auf den Knopf um dich einzuloggen.</source>
+        <target>The link you have clicked is no longer valid. Click on the button to log in.</target>
+      </trans-unit>
+      <trans-unit id="link-error.go-to-login" datatype="html">
+        <source>Weiter zum Login</source>
+        <target>Continue to login</target>
+      </trans-unit>
+      <trans-unit id="user-not-found.title" datatype="html">
+        <source>Account nicht gefunden</source>
+        <target>Account not found</target>
+      </trans-unit>
+      <trans-unit id="user-not-found.text1" datatype="html">
+        <source>Wir konnten deinen Account nicht finden.</source>
+        <target>We could not find your account.</target>
+      </trans-unit>
+      <trans-unit id="user-not-found.text2" datatype="html">
+        <source>Kontaktiere die für Moodtalk zuständige Person.</source>
+        <target>Contact the person responsible for Moodtalk.</target>
+      </trans-unit>
+      <trans-unit id="user-not-found.go-to-login" datatype="html">
+        <source>Erneut zum Login</source>
+        <target>Go to login again</target>
+      </trans-unit>
+      <trans-unit id="teams.title" datatype="html">
+        <source>Teams</source>
+        <target>Teams</target>
+      </trans-unit>
+      <trans-unit id="teams.all-teams" datatype="html">
+        <source>Alle Teams</source>
+        <target>All teams</target>
+      </trans-unit>
+      <trans-unit id="teams.team" datatype="html">
+        <source>Team</source>
+        <target>Team</target>
+      </trans-unit>
+      <trans-unit id="teams.division" datatype="html">
+        <source>Bereich</source>
+        <target>Division</target>
+      </trans-unit>
+      <trans-unit id="teams.lead" datatype="html">
+        <source>Team Lead</source>
+        <target>Team Lead</target>
+      </trans-unit>
+      <trans-unit id="teams.empty-state" datatype="html">
+        <source>Es wurden noch keine Teams erfasst.</source>
+        <target>No teams have been added yet.</target>
+      </trans-unit>
+      <trans-unit id="team-detail.team-management-title" datatype="html">
+        <source>Teamverwaltung</source>
+        <target>Team management</target>
+      </trans-unit>
+      <trans-unit id="team-detail.team-info" datatype="html">
+        <source>Team Info</source>
+        <target>Team Info</target>
+      </trans-unit>
+      <trans-unit id="team-detail.number-of-employees" datatype="html">
+        <source>Anzahl aktive Mitglieder</source>
+        <target>Number of active members</target>
+      </trans-unit>
+      <trans-unit id="team-detail.team-name" datatype="html">
+        <source>Teamname</source>
+        <target>Team name</target>
+      </trans-unit>
+      <trans-unit id="team-detail.team-lead" datatype="html">
+        <source>Teamlead</source>
+        <target>Team Lead</target>
+      </trans-unit>
+      <trans-unit id="team-detail.email" datatype="html">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="team-detail.language" datatype="html">
+        <source>Sprache</source>
+        <target>Language</target>
+      </trans-unit>
+      <trans-unit id="team-detail.empty-state" datatype="html">
+        <source>In diesem Team sind noch keine Mitarbeiter.</source>
+        <target>There are no employees in this team yet.</target>
+      </trans-unit>
+      <trans-unit id="team-detail.status" datatype="html">
+        <source>Status</source>
+        <target>Status</target>
+      </trans-unit>
+      <trans-unit id="team-detail.status.deactivated-at" datatype="html">
+        <source>Deaktivierung am <x id="INTERPOLATION" equiv-text="{{ employee.deactivateDate | date }}"/></source>
+        <target>Deactivation on <x id="INTERPOLATION" equiv-text="{{ employee.deactivateDate | date }}"/></target>
+      </trans-unit>
+      <trans-unit id="team-detail.status.starts-at" datatype="html">
+        <source>Aktivierung am <x id="INTERPOLATION" equiv-text="{{ employee.startDate | date }}"/></source>
+        <target>Activation on <x id="INTERPOLATION" equiv-text="{{ employee.startDate | date }}"/></target>
+      </trans-unit>
+      <trans-unit id="team-detail.status.active" datatype="html">
+        <source>Aktiv</source>
+        <target>Active</target>
+      </trans-unit>
+      <trans-unit id="teams.moodtalkers" datatype="html">
+        <source>Moodtalker</source>
+        <target>Moodtalker</target>
+      </trans-unit>
+      <trans-unit id="team-detail.participation-rate" datatype="html">
+        <source>Teilnahmequote</source>
+        <target>Participation rate</target>
+      </trans-unit>
+      <trans-unit id="team_participation_chart.tooltip.line1" datatype="html">
+        <source>Teilnahme: <x id="PH" equiv-text="params[0].data[1]"/>%</source>
+        <target>Participation: <x id="PH" equiv-text="params[0].data[1]"/>%</target>
+      </trans-unit>
+      <trans-unit id="team_participation_chart.tooltip.line2" datatype="html">
+        <source>Antworten: <x id="PH" equiv-text="params[0].data[2]"/> von <x id="PH_1" equiv-text="params[0].data[3]"/></source>
+        <target>Answers: <x id="PH" equiv-text="params[0].data[2]"/> of <x id="PH_1" equiv-text="params[0].data[3]"/></target>
+      </trans-unit>
+      <trans-unit id="surveys-edit.title" datatype="html">
+        <source>Umfrage Details</source>
+        <target>Question Details</target>
+      </trans-unit>
+      <trans-unit id="survey-question-edit.name" datatype="html">
+        <source>Bezeichnung</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="survey-question-edit.type" datatype="html">
+        <source>Typ der Frage</source>
+        <target>Question type</target>
+      </trans-unit>
+      <trans-unit id="survey-question-edit.title" datatype="html">
+        <source>Frage Details</source>
+        <target>Question text</target>
+      </trans-unit>
+      <trans-unit id="survey-question-edit.text" datatype="html">
+        <source>Fragetext</source>
+        <target>Open text</target>
+      </trans-unit>
+      <trans-unit id="survey-question-edit.type.rating" datatype="html">
+        <source>Bewertung (1 - 7)</source>
+        <target>Rating (1 - 7)</target>
+      </trans-unit>
+      <trans-unit id="survey-questions.title" datatype="html">
+        <source>Eigene Fragen</source>
+        <target>Custom Questions</target>
+      </trans-unit>
+      <trans-unit id="survey-questions.create" datatype="html">
+        <source>Frage erstellen</source>
+        <target>Create question</target>
+      </trans-unit>
+      <trans-unit id="survey-questionss.name" datatype="html">
+        <source>Bezeichnung</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="survey-questions.kind" datatype="html">
+        <source>Art der Frage</source>
+        <target>Question kind</target>
+      </trans-unit>
+      <trans-unit id="survey-questions.question" datatype="html">
+        <source>Frage</source>
+        <target>Question</target>
+      </trans-unit>
+      <trans-unit id="survey-questions.no-questions" datatype="html">
+        <source>Keine eigenen Fragen vorhanden.</source>
+        <target>No custom questions available.</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.standard-survey" datatype="html">
+        <source>Standard Umfrage</source>
+        <target>Standard survey</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.standard-survey-text" datatype="html">
+        <source>Wähle hier die Umfrage aus, welche versendet wird wenn nichts anders definiert ist.</source>
+        <target>Select here the survey which will be sent if nothing else is defined.</target>
+      </trans-unit>
+      <trans-unit id="surveys-add-question-modal.title" datatype="html">
+        <source>Frage hinzufügen</source>
+        <target>Add question</target>
+      </trans-unit>
+      <trans-unit id="surveys-add-question-modal.text" datatype="html">
+        <source>Wähle eine Frage aus um sie hinzuzufügen.</source>
+        <target>Select a question to add.</target>
+      </trans-unit>
+      <trans-unit id="surveys-add-question-modal.choose-question" datatype="html">
+        <source>Wähle die Frage</source>
+        <target>Select the question</target>
+      </trans-unit>
+      <trans-unit id="surveys-create-modal.title" datatype="html">
+        <source>Neue Umfrage erstellen</source>
+        <target>Create new survey</target>
+      </trans-unit>
+      <trans-unit id="surveys-create-modal.text" datatype="html">
+        <source>Möchtest du eine existierende Umfrage als Vorlage verwenden oder mit einer leeren Umfrage starten?</source>
+        <target>Do you want to use an existing survey as a template or start with a blank survey?</target>
+      </trans-unit>
+      <trans-unit id="surveys-create-modal.choose-template" datatype="html">
+        <source>Wähle die Vorlage</source>
+        <target>Choose the template</target>
+      </trans-unit>
+      <trans-unit id="surveys-create.with-template" datatype="html">
+        <source>Mit Vorlage</source>
+        <target>With template</target>
+      </trans-unit>
+      <trans-unit id="surveys-create.without-template" datatype="html">
+        <source>Leere Umfrage</source>
+        <target>Empty survey</target>
+      </trans-unit>
+      <trans-unit id="surveys-edit.name" datatype="html">
+        <source>Umfrage Name</source>
+        <target>Survey name</target>
+      </trans-unit>
+      <trans-unit id="surveys-edit.question" datatype="html">
+        <source>Fragen</source>
+        <target>Question type</target>
+      </trans-unit>
+      <trans-unit id="surveys-edit.add" datatype="html">
+        <source>Frage hinzufügen</source>
+        <target>Add question</target>
+      </trans-unit>
+      <trans-unit id="remove" datatype="html">
+        <source>Entfernen</source>
+        <target>Remove</target>
+      </trans-unit>
+      <trans-unit id="surveys-edit.non-editable" datatype="html">
+        <source>Diese Umfrage wird von Moodtalk zur Verfügung gestellt und kann nicht bearbeitet werden.</source>
+        <target>This survey is provided by Moodtalk and cannot be edited.</target>
+      </trans-unit>
+      <trans-unit id="surveys.title" datatype="html">
+        <source>Umfragen</source>
+        <target>Surveys</target>
+      </trans-unit>
+      <trans-unit id="surveys.create" datatype="html">
+        <source>Neue Umfrage</source>
+        <target>New Survey</target>
+      </trans-unit>
+      <trans-unit id="surveys.name" datatype="html">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="surveys.questions-count" datatype="html">
+        <source>Anzahl Fragen</source>
+        <target>Number of Questions</target>
+      </trans-unit>
+      <trans-unit id="surveys.type" datatype="html">
+        <source>Typ</source>
+        <target>Type</target>
+      </trans-unit>
+      <trans-unit id="surveys.questions" datatype="html">
+        <source>Fragen</source>
+        <target>Questions</target>
+      </trans-unit>
+      <trans-unit id="survey.type.custom" datatype="html">
+        <source>Eigene Umfrage</source>
+        <target>Custom Survey</target>
+      </trans-unit>
+      <trans-unit id="survey.type.moodtalk" datatype="html">
+        <source>Moodtalk Umfrage</source>
+        <target>Moodtalk Survey</target>
+      </trans-unit>
+      <trans-unit id="survey-question-edit.type.open-text" datatype="html">
+        <source>Offener Text</source>
+        <target>Open Text</target>
+      </trans-unit>
+      <trans-unit id="surveys.new-survey-name" datatype="html">
+        <source>Neue Umfrage</source>
+        <target>New Survey</target>
+      </trans-unit>
+      <trans-unit id="question.comment-empty.placeholder" datatype="html">
+        <source>Kommentar...</source>
+        <target>Comment...</target>
+      </trans-unit>
+      <trans-unit id="topics.title" datatype="html">
+        <source>Themen</source>
+        <target>Topics</target>
+      </trans-unit>
+      <trans-unit id="topics.all-topics" datatype="html">
+        <source>Alle Themen</source>
+        <target>All Topics</target>
+      </trans-unit>
+      <trans-unit id="topics.new-topic" datatype="html">
+        <source>Neues Thema</source>
+        <target>New Topic</target>
+      </trans-unit>
+      <trans-unit id="topics.topic" datatype="html">
+        <source>Thema</source>
+        <target>Topic</target>
+      </trans-unit>
+      <trans-unit id="topics.rule-inspirations" datatype="html">
+        <source>Inspirationen für Regeln</source>
+        <target>Inspiration for rules</target>
+      </trans-unit>
+      <trans-unit id="topics.empty-state" datatype="html">
+        <source>Es wurden noch keine Organisationsthemen erfasst.</source>
+        <target>No organisational topics have been added yet.</target>
+      </trans-unit>
+      <trans-unit id="tag-edit.deleted" datatype="html">
+        <source>Thema wurde gelöscht.</source>
+        <target>Topic has been deleted.</target>
+      </trans-unit>
+      <trans-unit id="tag-edit.title" datatype="html">
+        <source>Thema bearbeiten</source>
+        <target>Edit topic</target>
+      </trans-unit>
+      <trans-unit id="tag-edit.inspiration-title" datatype="html">
+        <source>Inspiration | Regelvorlagen für die Team Charta erstellen</source>
+        <target>Inspiration | Create rule templates for the Team Charter</target>
+      </trans-unit>
+      <trans-unit id="tag-edit.inspiration-label" datatype="html">
+        <source>Inspiration <x id="INTERPOLATION" equiv-text="{{ i + 1 }}"/></source>
+        <target>Inspiration <x id="INTERPOLATION" equiv-text="{{ i + 1 }}"/></target>
+      </trans-unit>
+      <trans-unit id="tag-edit.add-suggestion" datatype="html">
+        <source>Inspiration hinzufügen</source>
+        <target>Add inspiration</target>
+      </trans-unit>
+      <trans-unit id="tag-edit.created" datatype="html">
+        <source>Thema wurde erstellt.</source>
+        <target>Topic was created.</target>
+      </trans-unit>
+      <trans-unit id="save-error" datatype="html">
+        <source>Beim Speichern ist ein Fehler aufgetreten.</source>
+        <target>An error occurred while saving.</target>
+      </trans-unit>
+      <trans-unit id="tag-edit.saved" datatype="html">
+        <source>Thema wurde gespeichert.</source>
+        <target>Topic has been saved.</target>
+      </trans-unit>
+      <trans-unit id="tag-edit.header-title" datatype="html">
+        <source>Thema: <x id="INTERPOLATION" equiv-text="{{ topic?.textI18N?.de }}"/></source>
+        <target>Topic: <x id="INTERPOLATION" equiv-text="{{ topic?.textI18N?.de }}"/></target>
+      </trans-unit>
+      <trans-unit id="topics.category" datatype="html">
+        <source>Kategorie</source>
+        <target>Category</target>
+      </trans-unit>
+      <trans-unit id="tag-edit.category" datatype="html">
+        <source>Kategorie</source>
+        <target>Category</target>
+      </trans-unit>
+      <trans-unit id="team-edit.resend-dialog.onboarding-description" datatype="html">
+        <source>Möchtest Du die Einladung erneut an <x id="INTERPOLATION" equiv-text="{{ email }}"/> senden?</source>
+        <target>Would you like to resend the invitation to <x id="INTERPOLATION" equiv-text="{{ email }}"/>?</target>
+      </trans-unit>
+      <trans-unit id="tag-edit.delete-error" datatype="html">
+        <source>Thema konnte nicht gelöscht werden.</source>
+        <target>Topic could not be deleted.</target>
+      </trans-unit>
+      <trans-unit id="survey-type-modal.preview-questions" datatype="html">
+        <source>Klicke hier um die Vorschau der Fragen zu sehen.</source>
+        <target>Click here to see the preview of the questions.</target>
+      </trans-unit>
+      <trans-unit id="results-with-metadata-summary.title" datatype="html">
+        <source>Zusammenfassung der Kommentare</source>
+        <target>Summary of Comments</target>
+      </trans-unit>
+      <trans-unit id="results-with-metadata-summary.no-points" datatype="html">
+        <source>Keine Punkte gefunden.</source>
+        <target>No points found.</target>
+      </trans-unit>
+      <trans-unit id="results-with-metadata-summary.no-summary" datatype="html">
+        <source>Keine Zusammenfassung verfügbar.</source>
+        <target>No summary available.</target>
+      </trans-unit>
+      <trans-unit id="results-with-metadata.load-error" datatype="html">
+        <source>Beim generieren der Zusammenfassung ist ein Fehler aufgetreten.</source>
+        <target>An error occurred while generating the summary.</target>
+      </trans-unit>
+      <trans-unit id="results-with-metadata.survey-generating" datatype="html">
+        <source>Zusammenfassung wird generiert</source>
+        <target>Summary is being generated</target>
+      </trans-unit>
+      <trans-unit id="results-with-metadata.show-survey" datatype="html">
+        <source>Zusammenfassung anzeigen</source>
+        <target>Show summary</target>
+      </trans-unit>
+      <trans-unit id="survey-type-modal.create-own-survey" datatype="html">
+        <source>Eigene Umfrage erstellen</source>
+        <target>Create your own survey</target>
+      </trans-unit>
+      <trans-unit id="assessment.search-teams" datatype="html">
+        <source>Suche nach Teams</source>
+        <target>Search for Teams</target>
+      </trans-unit>
+      <trans-unit id="assessment-inbox.add-team" datatype="html">
+        <source>+ neues Team hinzufügen</source>
+        <target>+ Add new Team</target>
+      </trans-unit>
+      <trans-unit id="assessment-inbox.team-created" datatype="html">
+        <source>Team wurde erstellt.</source>
+        <target>Team has been created.</target>
+      </trans-unit>
+      <trans-unit id="assessment-inbox.team-creation-failed" datatype="html">
+        <source>Beim erstellen vom Team ist ein Fehler aufgetreten.</source>
+        <target>An error occurred while creating the team.</target>
+      </trans-unit>
+      <trans-unit id="assessment-team-add.title" datatype="html">
+        <source>Neues Team hinzufügen</source>
+        <target>Add new Team</target>
+      </trans-unit>
+      <trans-unit id="assessment-team-add.name" datatype="html">
+        <source>Team Name:</source>
+        <target>Team Name:</target>
+      </trans-unit>
+      <trans-unit id="assessment-team-add.name-placeholder" datatype="html">
+        <source>Team Name...</source>
+        <target>Team Name...</target>
+      </trans-unit>
+      <trans-unit id="company-check.date" datatype="html">
+        <source>Datum</source>
+        <target>Date</target>
+      </trans-unit>
+      <trans-unit id="navigation.change-team" datatype="html">
+        <source>Team wechseln</source>
+        <target>Switch Team</target>
+      </trans-unit>
+      <trans-unit id="app.org-organisation" datatype="html">
+        <source>Organisation</source>
+        <target>Organization</target>
+      </trans-unit>
+      <trans-unit id="company-team-edit-employee.lang" datatype="html">
+        <source>Sprache:</source>
+        <target>Language:</target>
+      </trans-unit>
+      <trans-unit id="teams.new-team" datatype="html">
+        <source>Neues Team</source>
+        <target>New Team</target>
+      </trans-unit>
+      <trans-unit id="company-team-delete-employee.delete" datatype="html">
+        <source>Mitglied löschen</source>
+        <target>Delete Member</target>
+      </trans-unit>
+      <trans-unit id="company-team-delete-employee.text" datatype="html">
+        <source>Möchtest du das folgende Mitglied wirklich löschen?</source>
+        <target>Do you really want to delete the following member?</target>
+      </trans-unit>
+      <trans-unit id="company-team-delete-employee.success" datatype="html">
+        <source>Mitglied erfolgreich gelöscht.</source>
+        <target>Member successfully deleted.</target>
+      </trans-unit>
+      <trans-unit id="company-team-delete-employee.error" datatype="html">
+        <source>Beim Löschen ist ein Fehler aufgetreten.</source>
+        <target>An error occurred while deleting.</target>
+      </trans-unit>
+      <trans-unit id="company-team.name" datatype="html">
+        <source>Team Name</source>
+        <target>Team Name</target>
+      </trans-unit>
+      <trans-unit id="team-detail.division" datatype="html">
+        <source>Bereich</source>
+        <target>Division</target>
+      </trans-unit>
+      <trans-unit id="company-team-detail.members" datatype="html">
+        <source>Mitglieder</source>
+        <target>Members</target>
+      </trans-unit>
+      <trans-unit id="company-team-detail.new-memeber" datatype="html">
+        <source>Neues Mitglied</source>
+        <target>New Member</target>
+      </trans-unit>
+      <trans-unit id="company-team-edit-employee.edit" datatype="html">
+        <source>Mitglied bearbeiten</source>
+        <target>Edit Member</target>
+      </trans-unit>
+      <trans-unit id="company-team-edit-employee.add" datatype="html">
+        <source>Mitglied hinzufügen</source>
+        <target>Add Member</target>
+      </trans-unit>
+      <trans-unit id="company-team-edit-employee.email" datatype="html">
+        <source>Email:</source>
+        <target>Email:</target>
+      </trans-unit>
+      <trans-unit id="company-team-edit-employee.placeholder" datatype="html">
+        <source>Sprache wählen</source>
+        <target>Choose Language</target>
+      </trans-unit>
+      <trans-unit id="company-team-edit-employee.create-error" datatype="html">
+        <source>Beim Erstellen des Mitarbeiters ist ein Fehler aufgetreten.</source>
+        <target>An error occurred while creating the employee.</target>
+      </trans-unit>
+      <trans-unit id="results.prepare-moderation" datatype="html">
+        <source>Moodtalk vorbereiten</source>
+        <target>Prepare Moodtalk</target>
+      </trans-unit>
+      <trans-unit id="app.change-org" datatype="html">
+        <source>Organisation</source>
+        <target>Organization</target>
+      </trans-unit>
+      <trans-unit id="talk-guide-add-rule.title" datatype="html">
+        <source>Team Charta Regel hinzufügen</source>
+        <target>Add Team Charter Rule</target>
+      </trans-unit>
+      <trans-unit id="talk-guide-add-rule-rule" datatype="html">
+        <source>Regel:</source>
+        <target>Rule:</target>
+      </trans-unit>
+      <trans-unit id="talk-guide-add-rule.add" datatype="html">
+        <source>Hinzufügen</source>
+        <target>Add</target>
+      </trans-unit>
+      <trans-unit id="talk-guide-block-discussion.notes-placeholder" datatype="html">
+        <source>Notizen hier erfassen...</source>
+        <target>Enter notes here...</target>
+      </trans-unit>
+      <trans-unit id="talk-guide-block-discussion.rules" datatype="html">
+        <source>Regelvorschläge</source>
+        <target>Rule Suggestions</target>
+      </trans-unit>
+      <trans-unit id="talk-guide-block-discussion.add-rule" datatype="html">
+        <source>Zur Team Charta hinzufügen</source>
+        <target>Add to Team Charter</target>
+      </trans-unit>
+      <trans-unit id="talk-guide-block-discussion.added" datatype="html">
+        <source>Hinzugefügt</source>
+        <target>Added</target>
+      </trans-unit>
+      <trans-unit id="talk-guide-block-discussion.other-rule" datatype="html">
+        <source>Andere Regel hinzufügen</source>
+        <target>Add Another Rule</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block-summary" datatype="html">
+        <source>Beim aktualisieren ist ein Fehler aufgetreten.</source>
+        <target>An error occurred while updating.</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block.update-error" datatype="html">
+        <source>Beim Speichern ist ein Fehler aufgetreten.</source>
+        <target>An error occurred while saving.</target>
+      </trans-unit>
+      <trans-unit id="talk-planer.title" datatype="html">
+        <source>Moodtalk vorbereiten</source>
+        <target>Prepare Moodtalk</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-add-point.title" datatype="html">
+        <source>Agendapunkt hinzufügen</source>
+        <target>Add Agenda Item</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-add-point.loading" datatype="html">
+        <source>Lädt...</source>
+        <target>Loading...</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-add-point.from" datatype="html">
+        <source>vom</source>
+        <target>from</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-add-point.add" datatype="html">
+        <source>Hinzufügen</source>
+        <target>Add</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-add-point.text-block" datatype="html">
+        <source>Neuer Agendapunkt</source>
+        <target>New agenda item</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-add-point.check-in" datatype="html">
+        <source>Check-In</source>
+        <target>Check-In</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-add-point.load-error" datatype="html">
+        <source>Beim Laden ist ein Fehler aufgetreten.</source>
+        <target>An error occurred while loading.</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-add-point.add-error" datatype="html">
+        <source>Beim Hinzufügen ist ein Fehler aufgetreten.</source>
+        <target>An error occurred while adding.</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block-discussion.updating" datatype="html">
+        <source>Wird aktualisiert...</source>
+        <target>Updating...</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block-discussion.update" datatype="html">
+        <source>Aktualisieren</source>
+        <target>Update</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block-discussion.topic-placeholder" datatype="html">
+        <source>Thema...</source>
+        <target>Topic...</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block-discussion.discussion-point-placeholder" datatype="html">
+        <source>Diskussionspunkt</source>
+        <target>Discussion Point</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block-discussion.add" datatype="html">
+        <source>Diskussionspunkt hinzufügen...</source>
+        <target>Add Discussion Point...</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block-discussion.suggestions" datatype="html">
+        <source>Regelvorschläge:</source>
+        <target>Rule Suggestions:</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block-discussion.rule-placeholder" datatype="html">
+        <source>Regelvorschlag</source>
+        <target>Rule Suggestion</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block-discussion.add-suggestion" datatype="html">
+        <source>Regelvorschlag hinzufügen...</source>
+        <target>Add Rule Suggestion...</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block-discussion.add-topic" datatype="html">
+        <source>Thema hinzufügen...</source>
+        <target>Add Topic...</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block-summary.summary" datatype="html">
+        <source>Zusammenfassung:</source>
+        <target>Summary:</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block.point-title" datatype="html">
+        <source>Agendapunkt Titel</source>
+        <target>Agenda Item Title</target>
+      </trans-unit>
+      <trans-unit id="talk-planer.title-guide" datatype="html">
+        <source>Moodtalk durchführen</source>
+        <target>Conduct Moodtalk</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.agenda" datatype="html">
+        <source>Agenda</source>
+        <target>Agenda</target>
+      </trans-unit>
+      <trans-unit id="moderation" datatype="html">
+        <source>Moderation</source>
+        <target>Moderation</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.choose-agenda" datatype="html">
+        <source>Agendapunkte wählen</source>
+        <target>Choose Agenda Items</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.from" datatype="html">
+        <source>Vom</source>
+        <target>From</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.add" datatype="html">
+        <source>Agendapunkt hinzufügen</source>
+        <target>Add Agenda Item</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.start" datatype="html">
+        <source>Moodtalk starten</source>
+        <target>Start Moodtalk</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.previous-block" datatype="html">
+        <source>Vorher</source>
+        <target>Previous</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.next-block" datatype="html">
+        <source>Weiter zu &quot;<x id="INTERPOLATION" equiv-text="{{ guideBlocks[this.activeBlockIndex + 1].title }}"/>&quot;</source>
+        <target>Next to &quot;<x id="INTERPOLATION" equiv-text="{{ guideBlocks[this.activeBlockIndex + 1].title }}"/>&quot;</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.finish-talk" datatype="html">
+        <source>Moodtalk abschliessen</source>
+        <target>Finish Moodtalk</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.discussion-notes" datatype="html">
+        <source>Notizen</source>
+        <target>Notes</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.moodtalk-started" datatype="html">
+        <source>Der Moodtalk wurde gestartet.</source>
+        <target>The Moodtalk has started.</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.moodtalk-start-error" datatype="html">
+        <source>Beim Starten des Moodtalks ist ein Fehler aufgetreten.</source>
+        <target>An error occurred while starting the Moodtalk.</target>
+      </trans-unit>
+      <trans-unit id="team-charta-commitment-list.good" datatype="html">
+        <source>An diese Regeln haltet ihr euch gut:</source>
+        <target>You follow these rules well:</target>
+      </trans-unit>
+      <trans-unit id="team-charta-commitment-list.mark-success" datatype="html">
+        <source>Als erledigt markieren</source>
+        <target>Mark as done</target>
+      </trans-unit>
+      <trans-unit id="team-charta-commitment-list.succeeded" datatype="html">
+        <source>Als erledigt markiert</source>
+        <target>Marked as done</target>
+      </trans-unit>
+      <trans-unit id="team-charta-commitment-list.to-improve" datatype="html">
+        <source>Bei diesen Regeln könnt ihr euch verbessern:</source>
+        <target>You can improve on these rules:</target>
+      </trans-unit>
+      <trans-unit id="app.talk-plans" datatype="html">
+        <source>Moodtalks</source>
+        <target>Moodtalks</target>
+      </trans-unit>
+      <trans-unit id="talk-plan-overview.title" datatype="html">
+        <source>Moodtalks</source>
+        <target>Moodtalks</target>
+      </trans-unit>
+      <trans-unit id="talk-plan-overview.all" datatype="html">
+        <source>Alle Moodtalks</source>
+        <target>All Moodtalks</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-overview.generate" datatype="html">
+        <source>Neuen Moodtalk vorbereiten</source>
+        <target>Prepare New Moodtalk</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-overview.create-date" datatype="html">
+        <source>Erstellungs Datum</source>
+        <target>Creation Date</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-overview.create-person" datatype="html">
+        <source>Erstellt von</source>
+        <target>Created by</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-overview.modify-date" datatype="html">
+        <source>Zuletzt geändert am</source>
+        <target>Last Modified on</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-overview.modify-person" datatype="html">
+        <source>Zuletzt geändert von</source>
+        <target>Last Modified by</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-overview.status" datatype="html">
+        <source>Status</source>
+        <target>Status</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-overview.status.draft" datatype="html">
+        <source>Entwurf</source>
+        <target>Draft</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-overview.status.live" datatype="html">
+        <source>Moderationsmodus</source>
+        <target>Moderation mode</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-overview.status.finished" datatype="html">
+        <source>Abgeschlossen</source>
+        <target>Finished</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-overview.no-plans" datatype="html">
+        <source>Es wurden noch keine Moodtalks erfasst.</source>
+        <target>No Moodtalks have been recorded yet.</target>
+      </trans-unit>
+      <trans-unit id="talk-planer.title-finished" datatype="html">
+        <source>Abgeschlossener Moodtalk</source>
+        <target>Finished Moodtalk</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.discussion-notes-point" datatype="html">
+        <source>Diskussionsnotizen</source>
+        <target>Discussion Notes</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.moodtalk-finished" datatype="html">
+        <source>Der Moodtalk wurde beendet.</source>
+        <target>The Moodtalk has been finished.</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.moodtalk-finish-error" datatype="html">
+        <source>Beim Beenden des Moodtalks ist ein Fehler aufgetreten.</source>
+        <target>An error occurred while finishing the Moodtalk.</target>
+      </trans-unit>
+      <trans-unit id="assessment-inbox.goal" datatype="html">
+        <source>Ziel der Frage:</source>
+        <target>Goal of the question:</target>
+      </trans-unit>
+      <trans-unit id="assessment-inbox.selected-teams" datatype="html">
+        <source>Ausgewählte Teams</source>
+        <target>Selected Teams</target>
+      </trans-unit>
+      <trans-unit id="teamwork-map.title" datatype="html">
+        <source>Eure Teamwork Map</source>
+        <target state="new">Your Teamwork Map</target>
+      </trans-unit>
+      <trans-unit id="company-map.title" datatype="html">
+        <source>Teamwork Map</source>
+        <target>Teamwork Map</target>
+      </trans-unit>
+      <trans-unit id="assessments.not-assigned" datatype="html">
+        <source>Nicht zugewiesen</source>
+        <target>Not assigned</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.current-survey" datatype="html">
+        <source>Aktuelle Umfrage</source>
+        <target>Current survey</target>
+      </trans-unit>
+      <trans-unit id="name" datatype="html">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.update-error" datatype="html">
+        <source>Beim Speichern ist ein Fehler aufgetreten.</source>
+        <target>An error occurred while saving.</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.modify" datatype="html">
+        <source>Anpassen</source>
+        <target>Modify</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.generate-timeout" datatype="html">
+        <source>Die Generierung dauert etwas länger, prüfe den Status in ein paar Minuten.</source>
+        <target>The generation is taking a bit longer, please check the status in a few minutes.</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.generate-error" datatype="html">
+        <source>Beim Generieren ist ein Fehler aufgetreten.</source>
+        <target>An error occurred during generation.</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-overview.generate-timeout" datatype="html">
+        <source>Die Generierung dauert etwas länger, prüfe den Status in ein paar Minuten.</source>
+        <target>The generation is taking a bit longer, please check the status in a few minutes.</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-overview.generate-error" datatype="html">
+        <source>Beim Generieren ist ein Fehler aufgetreten.</source>
+        <target>An error occurred during generation.</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.generating-title" datatype="html">
+        <source>Wird gerade generiert...</source>
+        <target>Currently generating...</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.generating-text" datatype="html">
+        <source>Wir sind noch nicht fertig mit der Erstellung von diesem Moodtalk. Bitte warten...</source>
+        <target>We are not finished creating this Moodtalk yet. Please wait...</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-overview.status.generating" datatype="html">
+        <source>Wird generiert</source>
+        <target>Generating</target>
+      </trans-unit>
+      <trans-unit id="teams.divisions" datatype="html">
+        <source>Bereiche</source>
+        <target>Divisions</target>
+      </trans-unit>
+      <trans-unit id="teams.divisions-empty" datatype="html">
+        <source>Es wurden noch keine Bereiche erfasst.</source>
+        <target>No divisions have been recorded yet.</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-add-point-modal.title" datatype="html">
+        <source>Agendapunkt hinzufügen</source>
+        <target>Add agenda item</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-add-point-modal.text" datatype="html">
+        <source>Wähle, was alles automatisch zum Agendapunkt hinzugefügt werden soll.</source>
+        <target>Choose what should be automatically added to the agenda item.</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-add-point.without-rules" datatype="html">
+        <source>Ohne Regelvorschläge (Dauer: ca. 5 Sekunden)</source>
+        <target>Without rule suggestions (Duration: approx. 5 seconds)</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-add-point.with-rules" datatype="html">
+        <source>Mit Regelvorschlägen (Dauer: ca. 30 Sekunden)</source>
+        <target>With rule suggestions (Duration: approx. 30 seconds)</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-create-modal.title" datatype="html">
+        <source>Neuen Moodtalk Guide erstellen</source>
+        <target>Create new Moodtalk Guide</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-create-modal.text" datatype="html">
+        <source>Wähle, was alles automatisch zu eurem Guide hinzugefügt werden soll.</source>
+        <target>Choose what should be automatically added to your guide.</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-create.without-rules" datatype="html">
+        <source>Ohne Regelvorschläge (Dauer: ca. 10 Sekunden)</source>
+        <target>Without rule suggestions (Duration: approx. 10 seconds)</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-create.with-rules" datatype="html">
+        <source>Mit Regelvorschlägen (Dauer: ca. 1 Minute)</source>
+        <target>With rule suggestions (Duration: approx. 1 minute)</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-create.empty" datatype="html">
+        <source>Leer</source>
+        <target>Empty</target>
+      </trans-unit>
+      <trans-unit id="community.title" datatype="html">
+        <source>Community</source>
+        <target>Community</target>
+      </trans-unit>
+      <trans-unit id="community.steckbriefe-description" datatype="html">
+        <source>Suche nach Steckbriefen von Personen in deiner Firma.</source>
+        <target state="new">Search for profiles of people in your company.</target>
+      </trans-unit>
+      <trans-unit id="community.no-checks-found" datatype="html">
+        <source>Keine Steckbriefe gefunden</source>
+        <target>No profiles found</target>
+      </trans-unit>
+      <trans-unit id="community.loading-checks" datatype="html">
+        <source>Lade Steckbriefe...</source>
+        <target>Loading profiles...</target>
+      </trans-unit>
+      <trans-unit id="steckbrief.title" datatype="html">
+        <source>Steckbrief von</source>
+        <target>Profile of</target>
+      </trans-unit>
+      <trans-unit id="app.community" datatype="html">
+        <source>Community</source>
+        <target>Community</target>
+      </trans-unit>
+      <trans-unit id="teamwork-map-details.rated-team" datatype="html">
+        <source>Wie hat das Team &quot;<x id="INTERPOLATION" equiv-text="{{ team }}"/>&quot; das Team &quot;<x id="INTERPOLATION_1" equiv-text="{{ targetTeam }}"/>&quot; bewertet?</source>
+        <target>Rated Team:</target>
+      </trans-unit>
+      <trans-unit id="teamwork-map-details.no-data" datatype="html">
+        <source>Keine Daten</source>
+        <target>No Data</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-add-point.full-team-charta" datatype="html">
+        <source>Ganze Team Charta</source>
+        <target>Full Team Charter</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block-discussion.edit-discussion" datatype="html">
+        <source>Diskussion bearbeiten:</source>
+        <target>Edit Discussion:</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block-discussion.discussion-points" datatype="html">
+        <source>Diskussionspunkte:</source>
+        <target>Discussion Points:</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-delete-modal.title" datatype="html">
+        <source>Moodtalk Guide löschen</source>
+        <target>Delete Moodtalk Guide</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-delete-modal.text" datatype="html">
+        <source>Möchtest du den folgenden Moodtalk Guide wirklich löschen?</source>
+        <target>Do you really want to delete the following Moodtalk Guide?</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-overview.actions" datatype="html">
+        <source>Aktionen</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block.show-all-answers" datatype="html">
+        <source>Alle Antworten anzeigen</source>
+        <target>Show all answers</target>
+      </trans-unit>
+      <trans-unit id="community.steckbriefe-search" datatype="html">
+        <source>Suche Steckbriefe</source>
+        <target>Search profiles</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block.next-moodtalks" datatype="html">
+        <source>Plant hier eure nächsten Moodtalks, basierend auf den Resultaten.</source>
+        <target>Plan your next Moodtalks here, based on the results.</target>
+      </trans-unit>
+      <trans-unit id="app.updates.cta" datatype="html">
+        <source>Erfahre jetzt mehr!</source>
+        <target>Learn more now!</target>
+      </trans-unit>
+      <trans-unit id="app.updates" datatype="html">
+        <source>Updates</source>
+        <target>Updates</target>
+      </trans-unit>
+      <trans-unit id="platform-updates.title" datatype="html">
+        <source>Updates</source>
+        <target>Updates</target>
+      </trans-unit>
+      <trans-unit id="platform-updates.table-header" datatype="html">
+        <source>Die neusten Moodtalk Updates</source>
+        <target>The latest Moodtalk updates</target>
+      </trans-unit>
+      <trans-unit id="platform-updates.updates" datatype="html">
+        <source>Updates</source>
+        <target>Updates</target>
+      </trans-unit>
+      <trans-unit id="platform-updates.link" datatype="html">
+        <source>Link</source>
+        <target>Link</target>
+      </trans-unit>
+      <trans-unit id="platform-updates.to-the-update" datatype="html">
+        <source>Erfahre mehr</source>
+        <target>Learn more</target>
+      </trans-unit>
+      <trans-unit id="platform-updates.updates-empty" datatype="html">
+        <source>Es gibt noch keine Udates.</source>
+        <target>There are no updates yet.</target>
+      </trans-unit>
+      <trans-unit id="app.dashboard" datatype="html">
+        <source>Dashboard</source>
+        <target>Dashboard</target>
+      </trans-unit>
+      <trans-unit id="dashboard.tasks" datatype="html">
+        <source>Aktivitäten</source>
+        <target>Activities</target>
+      </trans-unit>
+      <trans-unit id="dashboard.profile.title" datatype="html">
+        <source>Dein Steckbrief</source>
+        <target>Your Profile</target>
+      </trans-unit>
+      <trans-unit id="dashboard.profile.text" datatype="html">
+        <source>Dein Steckbrief ist <x id="INTERPOLATION" equiv-text="{{ preferencesPercent.percentTotal }}"/>% ausgefüllt.</source>
+        <target>Your profile is <x id="INTERPOLATION" equiv-text="{{ preferencesPercent.percentTotal }}"/>% complete.</target>
+      </trans-unit>
+      <trans-unit id="dashboard.profile.edit" datatype="html">
+        <source>Ergänze deinen Steckbrief</source>
+        <target>Complete your profile</target>
+      </trans-unit>
+      <trans-unit id="dashboard.edit-check" datatype="html">
+        <source>Bearbeite deine Antworten</source>
+        <target>Edit your answers</target>
+      </trans-unit>
+      <trans-unit id="dashboard.participation-loading" datatype="html">
+        <source>Lädt...</source>
+        <target>Loading...</target>
+      </trans-unit>
+      <trans-unit id="dashboard.preparation.participation" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ participation.teamParticipationPercentage }}"/>% deines Teams haben die Vorbereitung bereits ausgefüllt.</source>
+        <target><x id="INTERPOLATION" equiv-text="{{ participation.teamParticipationPercentage }}"/>% of your team has already completed the preparation.</target>
+      </trans-unit>
+      <trans-unit id="dashboard.results" datatype="html">
+        <source>Resultate</source>
+        <target>Results</target>
+      </trans-unit>
+      <trans-unit id="dashboard.results.team" datatype="html">
+        <source>Schaue dir die Resultate deines Teams an</source>
+        <target>View your team&apos;s results</target>
+      </trans-unit>
+      <trans-unit id="dashboard.results.me" datatype="html">
+        <source>Schaue dir deine Antworten an</source>
+        <target>View your answers</target>
+      </trans-unit>
+      <trans-unit id="dashboard.profile-search.disabled-hint" datatype="html">
+        <source>Fülle deinen Steckbrief aus um nach anderen zu suchen.</source>
+        <target>Complete your profile to search for others.</target>
+      </trans-unit>
+      <trans-unit id="app.org-teamwork-checks" datatype="html">
+        <source>Teamwork Checks</source>
+        <target>Teamwork Checks</target>
+      </trans-unit>
+      <trans-unit id="company-assessment.title-edit" datatype="html">
+        <source>Teamwork Check bearbeiten</source>
+        <target>Edit Teamwork Check</target>
+      </trans-unit>
+      <trans-unit id="company-assessment.title-create" datatype="html">
+        <source>Teamwork Check erstellen</source>
+        <target>Create Teamwork Check</target>
+      </trans-unit>
+      <trans-unit id="company-assessment.title-view" datatype="html">
+        <source>Teamwork Check</source>
+        <target>Teamwork Check</target>
+      </trans-unit>
+      <trans-unit id="company-check.update" datatype="html">
+        <source>Aktualisieren</source>
+        <target>Update</target>
+      </trans-unit>
+      <trans-unit id="company-check.create" datatype="html">
+        <source>Erstellen</source>
+        <target>Create</target>
+      </trans-unit>
+      <trans-unit id="company-checks.title" datatype="html">
+        <source>Teamwork Checks</source>
+        <target>Teamwork Checks</target>
+      </trans-unit>
+      <trans-unit id="company-checks.future-checks" datatype="html">
+        <source>Aktuelle &amp; Zukünftige Checks</source>
+        <target>Current &amp; Future Checks</target>
+      </trans-unit>
+      <trans-unit id="company-checks.new-check" datatype="html">
+        <source>Neuer Check</source>
+        <target>New Check</target>
+      </trans-unit>
+      <trans-unit id="company-checks.date" datatype="html">
+        <source>Datum</source>
+        <target>Date</target>
+      </trans-unit>
+      <trans-unit id="company-checks.overarching-check" datatype="html">
+        <source>Teamübergreifend</source>
+        <target>Cross-team</target>
+      </trans-unit>
+      <trans-unit id="company-checks.future-empty" datatype="html">
+        <source>Es wurden noch keine Teamwork Checks erfasst.</source>
+        <target>No Teamwork Checks have been recorded yet.</target>
+      </trans-unit>
+      <trans-unit id="company-checks.past-checks" datatype="html">
+        <source>Vergangene Checks</source>
+        <target>Past Checks</target>
+      </trans-unit>
+      <trans-unit id="company-checks.empty-state" datatype="html">
+        <source>Es gibt noch keine vergangenen Teamwork Checks.</source>
+        <target>There are no past Teamwork Checks yet.</target>
+      </trans-unit>
+      <trans-unit id="personal-pref.visibility.explanation" datatype="html">
+        <source>Stelle hier ein, wer diese Informationen einsehen kann.</source>
+        <target>Set who can view this information here.</target>
+      </trans-unit>
+      <trans-unit id="personal-pref.visibility.noone" datatype="html">
+        <source>Nicht sichtbar</source>
+        <target>Not visible</target>
+      </trans-unit>
+      <trans-unit id="personal-pref.visibility.team" datatype="html">
+        <source>Sichtbar für Teammitglieder</source>
+        <target>Visible to team members</target>
+      </trans-unit>
+      <trans-unit id="personal-pref.visibility.company" datatype="html">
+        <source>Sichtbar für Firmenmitglieder</source>
+        <target>Visible to company members</target>
+      </trans-unit>
+      <trans-unit id="personal-pref.text-placeholder" datatype="html">
+        <source>Schreibe deine Antwort hier rein.</source>
+        <target>Write your answer here.</target>
+      </trans-unit>
+      <trans-unit id="steckbrief.title-me" datatype="html">
+        <source>Mein Steckbrief</source>
+        <target>My Profile</target>
+      </trans-unit>
+      <trans-unit id="personal-pref.simple-view" datatype="html">
+        <source>Kurzer Steckbrief</source>
+        <target>Short Profile</target>
+      </trans-unit>
+      <trans-unit id="personal-pref.full-view" datatype="html">
+        <source>Erweiterter Steckbrief</source>
+        <target>Extended Profile</target>
+      </trans-unit>
+      <trans-unit id="other-topic.solvable" datatype="html">
+        <source>Ist das Thema lösbar in deinem Team?</source>
+        <target>Is this issue solvable in your team?</target>
+      </trans-unit>
+      <trans-unit id="other-topic.fully-solvable" datatype="html">
+        <source>Ja</source>
+        <target>Yes</target>
+      </trans-unit>
+      <trans-unit id="other-topic.partly-solvable" datatype="html">
+        <source>Teilweise</source>
+        <target>Partly</target>
+      </trans-unit>
+      <trans-unit id="other-topic.not-solvable" datatype="html">
+        <source>Nein</source>
+        <target>No</target>
+      </trans-unit>
+      <trans-unit id="other-topic.remove" datatype="html">
+        <source>Auswahl entfernen</source>
+        <target>Remove selection</target>
+      </trans-unit>
+      <trans-unit id="survey-settings.company-iteration.not-editable" datatype="html">
+        <source>Dieser Moodcheck ist von der Firma definiert und kann nicht bearbeitet werden.</source>
+        <target>This Moodcheck is defined by the company and cannot be edited.</target>
+      </trans-unit>
+      <trans-unit id="multiselect.reasons" datatype="html">
+        <source>Was sind die Gründe für die Auswahl von &quot;{{}}&quot;?</source>
+        <target>What are the reasons for selecting &quot;{{}}&quot;?</target>
+      </trans-unit>
+      <trans-unit id="talk-guide-block-discussion.empty-suggestions-rule" datatype="html">
+        <source>Team Charta Regel hinzufügen</source>
+        <target>Add Team Charter Rule</target>
+      </trans-unit>
+      <trans-unit id="app.team" datatype="html">
+        <source>Meine Teams</source>
+        <target>My Teams</target>
+      </trans-unit>
+      <trans-unit id="dashboard.preparation" datatype="html">
+        <source>Vorbereitung</source>
+        <target>Preparation</target>
+      </trans-unit>
+      <trans-unit id="dashboard.preparation-done" datatype="html">
+        <source>Du hast die Vorbereitung ausgefüllt.</source>
+        <target>You have completed the preparation.</target>
+      </trans-unit>
+      <trans-unit id="dashboard.do-preparation" datatype="html">
+        <source>Fülle die Vorbereitung jetzt aus</source>
+        <target>Complete the preparation now</target>
+      </trans-unit>
+      <trans-unit id="company-check.survey" datatype="html">
+        <source>Umfrage</source>
+        <target>Survey</target>
+      </trans-unit>
+      <trans-unit id="company-checks.survey" datatype="html">
+        <source>Umfrage</source>
+        <target>Survey</target>
+      </trans-unit>
+      <trans-unit id="org-challenges.title" datatype="html">
+        <source>Herausforderungen</source>
+        <target>Challenges</target>
+      </trans-unit>
+      <trans-unit id="org-collab-rating.title" datatype="html">
+        <source>Organisation Zusammenarbeit</source>
+        <target>Organisation Collaboration</target>
+      </trans-unit>
+      <trans-unit id="org-mood.title" datatype="html">
+        <source>Organisation Stimmung</source>
+        <target>Organisation Mood</target>
+      </trans-unit>
+      <trans-unit id="org-positives.title" datatype="html">
+        <source>Positive Aspekte</source>
+        <target>Positive Aspects</target>
+      </trans-unit>
+      <trans-unit id="org-mood.tooltip.line1" datatype="html">
+        <source>Durchschnitt: <x id="PH" equiv-text="params[2].data"/></source>
+        <target>Average: <x id="PH" equiv-text="params[2].data"/></target>
+      </trans-unit>
+      <trans-unit id="org-mood.tooltip.line2" datatype="html">
+        <source>Std. Abweichung: <x id="PH" equiv-text="params[1].data / 2"/></source>
+        <target>Std. Deviation: <x id="PH" equiv-text="params[1].data / 2"/></target>
+      </trans-unit>
+      <trans-unit id="tag-edit.group" datatype="html">
+        <source>Themengruppe</source>
+        <target>Topic Group</target>
+      </trans-unit>
+      <trans-unit id="tag-edit.group-placeholder" datatype="html">
+        <source>Gruppe vom Thema</source>
+        <target>Group of the Topic</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-reedit-modal.title" datatype="html">
+        <source>Zurück zur Bearbeitung</source>
+        <target>Back to Editing</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-reedit-modal.subtitle" datatype="html">
+        <source>Möchtest du wirklich zurück zur Bearbeitung?</source>
+        <target>Do you really want to go back to editing?</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-reedit-modal.subtitle2" datatype="html">
+        <source>Im Moderationsmodus erfasste Notizen können dadurch verloren gehen.</source>
+        <target>Notes taken in moderation mode may be lost.</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-reedit-moda.go-back" datatype="html">
+        <source>Zur Bearbeitung</source>
+        <target>Back to Editing</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.reedit" datatype="html">
+        <source>Zurück zur Bearbeitung</source>
+        <target>Back to Editing</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.moodtalk-stopped" datatype="html">
+        <source>Der Moodtalk wurde gestoppt.</source>
+        <target>The Moodtalk has been stopped.</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.moodtalk-stop-error" datatype="html">
+        <source>Beim Stoppen des Moodtalks ist ein Fehler aufgetreten.</source>
+        <target>An error occurred while stopping the Moodtalk.</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block.duration" datatype="html">
+        <source>Dauer in Min.:</source>
+        <target>Duration in min.:</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block.placeholder.minutes" datatype="html">
+        <source>Min.</source>
+        <target>min.</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-timer.minutes" datatype="html">
+        <source>Minuten</source>
+        <target>minutes</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.budget" datatype="html">
+        <source>Dauer</source>
+        <target>Duration</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.minutes" datatype="html">
+        <source>Min.</source>
+        <target>min.</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block.show-charter" datatype="html">
+        <source>Team Charta anzeigen</source>
+        <target>Show Team Charter</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.exit-fullscreen" datatype="html">
+        <source>Vollbildmodus verlassen</source>
+        <target>Exit fullscreen</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.enter-fullscreen" datatype="html">
+        <source>Vollbildmodus aktivieren</source>
+        <target>Enter fullscreen</target>
+      </trans-unit>
+      <trans-unit id="dashboard.onboarding" datatype="html">
+        <source>Onboarding</source>
+        <target>Onboarding</target>
+      </trans-unit>
+      <trans-unit id="dashboard.onboarding-done" datatype="html">
+        <source>Das Onboarding ist bereits ausgefüllt.</source>
+        <target>The onboarding is already completed.</target>
+      </trans-unit>
+      <trans-unit id="onboarding.title" datatype="html">
+        <source>Onboarding</source>
+        <target>Onboarding</target>
+      </trans-unit>
+      <trans-unit id="onboarding.intro.title" datatype="html">
+        <source>Mache dein Team startklar!</source>
+        <target>Get your team ready!</target>
+      </trans-unit>
+      <trans-unit id="onboarding.teamname" datatype="html">
+        <source>Schritt 1: Teamname bestätigen</source>
+        <target>Step 1: Confirm team name</target>
+      </trans-unit>
+      <trans-unit id="onboarding.invite" datatype="html">
+        <source>Schritt 2: Teammitglieder hinzufügen</source>
+        <target>Step 2: Add team members</target>
+      </trans-unit>
+      <trans-unit id="onboarding.charter" datatype="html">
+        <source>Schritt 4: Regeln der Zusammenarbeit hinzufügen</source>
+        <target state="new">Step 4: Add collaboration rules</target>
+      </trans-unit>
+      <trans-unit id="onboarding.topics" datatype="html">
+        <source>Schritt 5: Herausforderungen im Team</source>
+        <target state="new">Step 5: Team challenges</target>
+      </trans-unit>
+      <trans-unit id="onboarding.teamname.hint" datatype="html">
+        <source>Ist der Name von eurem Team korrekt?</source>
+        <target>Is your team name correct?</target>
+      </trans-unit>
+      <trans-unit id="onboarding.teamname.hint2" datatype="html">
+        <source>Falls nicht kannst du den Teamnamen hier anpassen.</source>
+        <target>If not, you can adjust the team name here.</target>
+      </trans-unit>
+      <trans-unit id="onboarding.teamname.label" datatype="html">
+        <source>Teamname:</source>
+        <target>Team name:</target>
+      </trans-unit>
+      <trans-unit id="onboarding.teamcharter.hint" datatype="html">
+        <source>Habt ihr bereits Regeln zur Zusammenarbeit im Team? Füge sie zu eurer Team Charta dazu!</source>
+        <target>Do you already have collaboration rules in your team? Add them to your Team Charter!</target>
+      </trans-unit>
+      <trans-unit id="onboarding.topics.hint" datatype="html">
+        <source>Was sind die grössten Herausforderungen beim Teamwork in eurem Team?</source>
+        <target>What are the biggest challenges in teamwork within your team?</target>
+      </trans-unit>
+      <trans-unit id="onboarding.topics.label" datatype="html">
+        <source>Herausforderungen:</source>
+        <target>Challenges:</target>
+      </trans-unit>
+      <trans-unit id="onboarding.topics.placeholder" datatype="html">
+        <source>Schreibe hier deine Antwort...</source>
+        <target>Write your answer here...</target>
+      </trans-unit>
+      <trans-unit id="onboarding.done" datatype="html">
+        <source>Alles erledigt!</source>
+        <target>All done!</target>
+      </trans-unit>
+      <trans-unit id="onboarding.done.explanation" datatype="html">
+        <source>Vielen Dank!</source>
+        <target state="new">Thank you!</target>
+      </trans-unit>
+      <trans-unit id="onboarding.back" datatype="html">
+        <source>Zurück</source>
+        <target>Back</target>
+      </trans-unit>
+      <trans-unit id="onboarding.next" datatype="html">
+        <source>Weiter</source>
+        <target>Next</target>
+      </trans-unit>
+      <trans-unit id="teams.onboarding" datatype="html">
+        <source>Onboarding</source>
+        <target>Onboarding</target>
+      </trans-unit>
+      <trans-unit id="team-edit.title-onboarding" datatype="html">
+        <source>Schritt 2: Teammitglieder hinzufügen</source>
+        <target>Step 2: Add team members</target>
+      </trans-unit>
+      <trans-unit id="onboarding.teamedit.hint" datatype="html">
+        <source>Füge hier deine Teammitglieder hinzu.</source>
+        <target>Add your team members here.</target>
+      </trans-unit>
+      <trans-unit id="dashboard.do-onboarding" datatype="html">
+        <source>Starte mit dem Onboarding!</source>
+        <target>Start with the onboarding!</target>
+      </trans-unit>
+      <trans-unit id="company-map.legend-green" datatype="html">
+        <source>Grün (Kreis oder Pfeil)</source>
+        <target state="new">Green (circle or arrow)</target>
+      </trans-unit>
+      <trans-unit id="company-map-legend-green.explanation" datatype="html">
+        <source>Die Zusammenarbeit wird als <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>gut<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> bewertet (Durchschnitt 6.0 oder höher).</source>
+        <target state="new">Collaboration is rated as <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>good<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> (average 6.0 or higher).</target>
+      </trans-unit>
+      <trans-unit id="company-map.legend-yellow" datatype="html">
+        <source>Gelb (Kreis oder Pfeil)</source>
+        <target state="new">Yellow (circle or arrow)</target>
+      </trans-unit>
+      <trans-unit id="company-map-legend-yellow.explanation" datatype="html">
+        <source>Die Zusammenarbeit wird als <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>okay<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> bewertet (Durchschnitt zwischen 3.0 und 6.0).</source>
+        <target state="new">Collaboration is rated as <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>okay<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> (average between 3.0 and 6.0).</target>
+      </trans-unit>
+      <trans-unit id="company-map.legend-red" datatype="html">
+        <source>Rot (Kreis oder Pfeil)</source>
+        <target state="new">Red (circle or arrow)</target>
+      </trans-unit>
+      <trans-unit id="company-map-legend-red.explanation" datatype="html">
+        <source>Die Zusammenarbeit wird als <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>herausfordernd<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> bewertet (Durchschnitt unter 3.0).</source>
+        <target state="new">Collaboration is rated as <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>challenging<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> (average below 3.0).</target>
+      </trans-unit>
+      <trans-unit id="company-map.legend-gray" datatype="html">
+        <source>Grau (Kreis oder Pfeil)</source>
+        <target state="new">Gray (circle or arrow)</target>
+      </trans-unit>
+      <trans-unit id="company-map-legend-gray.explanation" datatype="html">
+        <source>Die Zusammenarbeit wurde (noch) nicht bewertet.</source>
+        <target state="new">Collaboration has not (yet) been rated.</target>
+      </trans-unit>
+      <trans-unit id="hint-stdev.title" datatype="html">
+        <source>Standardabweichung</source>
+        <target>Standard Deviation</target>
+      </trans-unit>
+      <trans-unit id="hint-stdev.text" datatype="html">
+        <source>Die Standardabweichung ist die durchschnittliche Abweichung der Werte Durchschnitt aller Werte.</source>
+        <target>The standard deviation is the average deviation of values from the mean of all values.</target>
+      </trans-unit>
+      <trans-unit id="tag-edit.topic-group" datatype="html">
+        <source>Themengruppe</source>
+        <target>Topic Group</target>
+      </trans-unit>
+      <trans-unit id="teamwork-map-details.rating-count1" datatype="html">
+        <source>Wurde von</source>
+        <target>Rated by</target>
+      </trans-unit>
+      <trans-unit id="teamwork-map-details.rating-count2" datatype="html">
+        <source>Personen bewertet.</source>
+        <target>people.</target>
+      </trans-unit>
+      <trans-unit id="teamwork-map-details.average-rating-mood" datatype="html">
+        <source>Durchschnittliche Bewertung der Stimmung:</source>
+        <target>Average Mood Rating:</target>
+      </trans-unit>
+      <trans-unit id="teamwork-map-details.stimmung-reasons" datatype="html">
+        <source>Genannte Gründe:</source>
+        <target>Stated Reasons:</target>
+      </trans-unit>
+      <trans-unit id="teamwork-map-details.average-rating-collaboration" datatype="html">
+        <source>Durchschnittliche Bewertung der Zusammenarbeit:</source>
+        <target>Average Collaboration Rating:</target>
+      </trans-unit>
+      <trans-unit id="teamwork-map-details.named-challenges.top" datatype="html">
+        <source>Top <x id="INTERPOLATION" equiv-text="{{ maxTagsShown }}"/></source>
+        <target>Top <x id="INTERPOLATION" equiv-text="{{ maxTagsShown }}"/></target>
+      </trans-unit>
+      <trans-unit id="teamwork-map-details.named-challenges" datatype="html">
+        <source>Genannte Herausforderungen:</source>
+        <target>Stated Challenges:</target>
+      </trans-unit>
+      <trans-unit id="map.rating-count.title" datatype="html">
+        <source>Wurde von</source>
+        <target>Rated by</target>
+      </trans-unit>
+      <trans-unit id="map.rating-count.title2" datatype="html">
+        <source>Personen bewertet</source>
+        <target>people rated</target>
+      </trans-unit>
+      <trans-unit id="map.average-rating" datatype="html">
+        <source>Durchschnittliche Bewertung der Zusammenarbeit</source>
+        <target>Average Collaboration Rating</target>
+      </trans-unit>
+      <trans-unit id="org-dashboard.bubbles-mode" datatype="html">
+        <source>Einzelansicht</source>
+        <target state="new">Single View</target>
+      </trans-unit>
+      <trans-unit id="org-dashboard.legacy-mode" datatype="html">
+        <source>Verlauf</source>
+        <target state="new">History</target>
+      </trans-unit>
+      <trans-unit id="org-topic-bubbles.title" datatype="html">
+        <source>Themen der Zusammenarbeit</source>
+        <target state="new">Collaboration Topics</target>
+      </trans-unit>
+      <trans-unit id="org-topic-bubbles.challenges.title" datatype="html">
+        <source>Herausforderungen</source>
+        <target state="new">Challenges</target>
+      </trans-unit>
+      <trans-unit id="org-topic-bubbles.positives.title" datatype="html">
+        <source>Positive Aspekte</source>
+        <target state="new">Positive Aspects</target>
+      </trans-unit>
+      <trans-unit id="company-map.circle-color" datatype="html">
+        <source>Kreisfarbe:</source>
+        <target state="new">Circle Color:</target>
+      </trans-unit>
+      <trans-unit id="company-map.circle-explanation" datatype="html">
+        <source>Bewertung der <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>internen Zusammenarbeit<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> innerhalb eines Teams an.</source>
+        <target state="new">Rating of <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>internal collaboration<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> within a team.</target>
+      </trans-unit>
+      <trans-unit id="company-map.arrow-color" datatype="html">
+        <source>Pfeilfarbe:</source>
+        <target state="new">Arrow Color:</target>
+      </trans-unit>
+      <trans-unit id="company-map.arrow-explanation" datatype="html">
+        <source>Bewertung der <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>Zusammenarbeit mit anderen Teams<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>, auf die der Pfeil zeigt.</source>
+        <target state="new">Rating of <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>collaboration with other teams<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> indicated by the arrow.</target>
+      </trans-unit>
+      <trans-unit id="company-map.explanation-company" datatype="html">
+        <source>Die Teamwork Map zeigt, wie Teams intern zusammenarbeiten und wie sie die Zusammenarbeit mit anderen Teams bewerten.</source>
+        <target state="new">The Teamwork Map shows how teams collaborate internally and how they rate collaboration with other teams.</target>
+      </trans-unit>
+      <trans-unit id="note-board.write-lock-info-unknown" datatype="html">
+        <source>Dieser Guide wird aktuell bearbeitet.</source>
+        <target>This guide is currently being edited.</target>
+      </trans-unit>
+      <trans-unit id="community.steckbriefe-description-hidden" datatype="html">
+        <source>Du kannst beim Ergänzen von deinem Steckbrief entscheiden, welche Antworten für andere sichtbar sind.</source>
+        <target state="new">When completing your profile, you can decide which answers are visible to others.</target>
+      </trans-unit>
+      <trans-unit id="team-charta.openness-trust" datatype="html">
+        <source>Offenheit &amp; Vertrauen</source>
+        <target state="new">Openness &amp; Trust</target>
+      </trans-unit>
+      <trans-unit id="team-charta.structure-clarity" datatype="html">
+        <source>Struktur &amp; Klarheit</source>
+        <target state="new">Structure &amp; Clarity</target>
+      </trans-unit>
+      <trans-unit id="team-charta.impact-meaning" datatype="html">
+        <source>Bedeutung &amp; Sinnhaftigkeit der Arbeit</source>
+        <target state="new">Impact &amp; Meaning</target>
+      </trans-unit>
+      <trans-unit id="team-check.title" datatype="html">
+        <source>Team überprüfen</source>
+        <target state="new">Check Team</target>
+      </trans-unit>
+      <trans-unit id="onboarding.moderation" datatype="html">
+        <source>Schritt 3: Moderation bestimmen</source>
+        <target state="new">Step 3: Determine Moderation</target>
+      </trans-unit>
+      <trans-unit id="onboarding.intro-check.title" datatype="html">
+        <source>Überprüfe dein Team</source>
+        <target state="new">Check your Team</target>
+      </trans-unit>
+      <trans-unit id="onboarding.invite-check" datatype="html">
+        <source>Schritt 1: Teammitglieder überprüfen</source>
+        <target state="new">Step 1: Check Team Members</target>
+      </trans-unit>
+      <trans-unit id="onboarding.moderation-check" datatype="html">
+        <source>Schritt 2: Moderation bestimmen</source>
+        <target state="new">Step 2: Define Moderation</target>
+      </trans-unit>
+      <trans-unit id="onboarding.moderation.hint" datatype="html">
+        <source>Wer von eurem Team soll die Diskussion moderieren?</source>
+        <target state="new">Who from your team should moderate the Moodtalk?</target>
+      </trans-unit>
+      <trans-unit id="onboarding.moderation.label" datatype="html">
+        <source>Standard Moderator*in:</source>
+        <target state="new">Default Moderator:</target>
+      </trans-unit>
+      <trans-unit id="teams.email-reason" datatype="html">
+        <source>Ziel von Moodtalk</source>
+        <target state="new">Goal of Moodtalk</target>
+      </trans-unit>
+      <trans-unit id="teams.email-reason.alert" datatype="html">
+        <source>Erkläre in wenigen Sätzen, was ihr mit Moodtalk bei euch in der Organisation erreichen wollt.</source>
+        <target state="new">Briefly explain what you want to achieve with Moodtalk in your company.</target>
+      </trans-unit>
+      <trans-unit id="teams.no-teamlead" datatype="html">
+        <source>Kein Teamlead bestimmt.</source>
+        <target state="new">No team lead assigned.</target>
+      </trans-unit>
+      <trans-unit id="teams.onboarding-pending" datatype="html">
+        <source>Nicht erledigt.</source>
+        <target state="new">Not completed.</target>
+      </trans-unit>
+      <trans-unit id="team-detail.make-team-lead" datatype="html">
+        <source>Als Teamlead definieren</source>
+        <target state="new">Set as Team Lead</target>
+      </trans-unit>
+      <trans-unit id="team-detail.is-team-lead" datatype="html">
+        <source>Team Lead</source>
+        <target state="new">Team Lead</target>
+      </trans-unit>
+      <trans-unit id="company-team-edit-employee.no-employees" datatype="html">
+        <source>Das ist das erste Mitglied in diesem Team. Es wird automatisch zum Team Lead ernannt und erhält eine Einladung für das Onboarding.</source>
+        <target state="new">This is the first member in this team. They will automatically be designated as Team Lead and receive an invitation for onboarding.</target>
+      </trans-unit>
+      <trans-unit id="team-edit.title-teamcheck" datatype="html">
+        <source>Schritt 1: Teammitglieder überprüfen</source>
+        <target state="new">Step 1: Check Team Members</target>
+      </trans-unit>
+      <trans-unit id="onboarding.date-text-1" datatype="html">
+        <source>Der nächste Teamwork Check wird am</source>
+        <target state="new">The next Teamwork Check will be sent on</target>
+      </trans-unit>
+      <trans-unit id="onboarding.date-text-2" datatype="html">
+        <source>versendet.</source>
+        <target state="new">.</target>
+      </trans-unit>
+      <trans-unit id="org-dashboard.facts-figures" datatype="html">
+        <source>Fakten und Zahlen</source>
+        <target state="new">Facts and Figures</target>
+      </trans-unit>
+      <trans-unit id="facts-figures.active-users" datatype="html">
+        <source>Aktive Users</source>
+        <target state="new">Active Users</target>
+      </trans-unit>
+      <trans-unit id="facts-figures.active-teams" datatype="html">
+        <source>Aktive Teams</source>
+        <target state="new">Active Teams</target>
+      </trans-unit>
+      <trans-unit id="facts-figures.checks" datatype="html">
+        <source>Checks</source>
+        <target state="new">Checks</target>
+      </trans-unit>
+      <trans-unit id="facts-figures.last-year" datatype="html">
+        <source>letzte 12 Monate</source>
+        <target state="new">last 12 months</target>
+      </trans-unit>
+      <trans-unit id="facts-figures.talks" datatype="html">
+        <source>Talks</source>
+        <target state="new">Talks</target>
+      </trans-unit>
+      <trans-unit id="facts-figures.number-rules" datatype="html">
+        <source>Anzahl Regeln</source>
+        <target state="new">Number of Rules</target>
+      </trans-unit>
+      <trans-unit id="facts-figures.teams-with-charter" datatype="html">
+        <source>Teams mit Charta</source>
+        <target state="new">Teams with Charter</target>
+      </trans-unit>
+      <trans-unit id="survey-type-modal.custom-questions.title" datatype="html">
+        <source>Was ist das Fokusthema?</source>
+        <target state="new">What is the focus topic?</target>
+      </trans-unit>
+      <trans-unit id="survey-type-modal.custom-questions.title-placeholder" datatype="html">
+        <source>Fokusthema</source>
+        <target state="new">Focus Topic</target>
+      </trans-unit>
+      <trans-unit id="survey-type-modal.custom-questions.one" datatype="html">
+        <source>Textfrage 1:</source>
+        <target state="new">Text Question 1:</target>
+      </trans-unit>
+      <trans-unit id="survey-type-modal.custom-questions.one-placeholder" datatype="html">
+        <source>Textfrage 1</source>
+        <target state="new">Text Question 1</target>
+      </trans-unit>
+      <trans-unit id="survey-type-modal.custom-questions.two" datatype="html">
+        <source>Textfrage 2:</source>
+        <target state="new">Text Question 2:</target>
+      </trans-unit>
+      <trans-unit id="survey-type-modal.custom-questions.two-placeholder" datatype="html">
+        <source>Textfrage 2</source>
+        <target state="new">Text Question 2</target>
+      </trans-unit>
+      <trans-unit id="survey-type-modal.custom-questions.three" datatype="html">
+        <source>Textfrage 3:</source>
+        <target state="new">Text Question 3:</target>
+      </trans-unit>
+      <trans-unit id="survey-type-modal.custom-questions.three-placeholder" datatype="html">
+        <source>Textfrage 3</source>
+        <target state="new">Text Question 3</target>
+      </trans-unit>
+      <trans-unit id="surveys-edit.custom-questions" datatype="html">
+        <source>Die Fragen werden von euch definiert.</source>
+        <target state="new">The questions are defined by you.</target>
+      </trans-unit>
+      <trans-unit id="teamwork-map-details.rating-count2-internal" datatype="html">
+        <source>Personen <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>intern<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> bewertet.</source>
+        <target state="new">people <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>internally<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>.</target>
+      </trans-unit>
+      <trans-unit id="map.rating-count.title2-internal" datatype="html">
+        <source>Personen &lt;b&gt;intern&lt;/b&gt; bewertet</source>
+        <target state="new">people &lt;b&gt;internally&lt;/b&gt;</target>
+      </trans-unit>
+      <trans-unit id="inbox.questions-information" datatype="html">
+        <source>Wichtige Infos für die folgenden Fragen</source>
+        <target state="new">Important information for the following questions</target>
+      </trans-unit>
+      <trans-unit id="inbox.check-duration" datatype="html">
+        <source>Dauer des Checks:</source>
+        <target state="new">Duration of the check:</target>
+      </trans-unit>
+      <trans-unit id="inbox.duration-5" datatype="html">
+        <source>ca. 5 Minuten</source>
+        <target state="new">approx. 5 minutes</target>
+      </trans-unit>
+      <trans-unit id="inbox.questions-goal" datatype="html">
+        <source>Ziel:</source>
+        <target state="new">Goal:</target>
+      </trans-unit>
+      <trans-unit id="inbox.goal-explanation" datatype="html">
+        <source>Der Check hilft dabei, die Zusammenarbeit im Team zu verbessern, Konflikte früzeitig zu erkennen und Arbeitsumgebung zu schaffen, in der sich alle Mitarbeitenden wohlfühlen und produktiv arbeiten können. Indem ihr regelmässig Feedback gebt, tragt ihr aktiv dazu bei, eure gemeinsamen Arbeitsprozesse effektiver und angenehmer zu gestalten.</source>
+        <target state="new">The check helps improve team collaboration, identify conflicts early, and create a work environment where all employees feel comfortable and can work productively. By regularly giving feedback, you actively contribute to making your joint work processes more effective and enjoyable.</target>
+      </trans-unit>
+      <trans-unit id="inbox.data-information" datatype="html">
+        <source>Was passiert mit deinen Daten?</source>
+        <target state="new">What happens to your data?</target>
+      </trans-unit>
+      <trans-unit id="inbox.data-information-1" datatype="html">
+        <source>Niemend in deinem Unternehmen kann nachvollziehen, welche Antworten von dir stammen.</source>
+        <target state="new">No one in your company can trace which answers came from you.</target>
+      </trans-unit>
+      <trans-unit id="inbox.data-information-2" datatype="html">
+        <source>Die Daten werden ausschliesslich aggregiert dargestellt, z. B. in Form von Durchschnittswerten oder Trends.</source>
+        <target state="new">The data is presented exclusively in aggregated form, e.g., as averages or trends.</target>
+      </trans-unit>
+      <trans-unit id="inbox.data-information-3" datatype="html">
+        <source>Deine Kommentare werden in der Übersicht für alle sichtbar, aber niemand kann nachvollziehen, dass der Kommentar von dir stammt.</source>
+        <target state="new">Your comments are visible to everyone in the overview, but no one can trace that the comment came from you.</target>
+      </trans-unit>
+      <trans-unit id="inbox.whats-next" datatype="html">
+        <source>Was passiert als nächstes?</source>
+        <target state="new">What happens next?</target>
+      </trans-unit>
+      <trans-unit id="inbox.answering-questions" datatype="html">
+        <source>Beantworten der Fragen</source>
+        <target state="new">Answering the questions</target>
+      </trans-unit>
+      <trans-unit id="inbox.results-discussion" datatype="html">
+        <source>Besprechung der Ergebnisse</source>
+        <target state="new">Discussion of results</target>
+      </trans-unit>
+      <trans-unit id="inbox.next-questions" datatype="html">
+        <source>Nächste Fragen</source>
+        <target state="new">Next questions</target>
+      </trans-unit>
+      <trans-unit id="inbox.start-survey" datatype="html">
+        <source>Jetzt starten</source>
+        <target state="new">Start now</target>
+      </trans-unit>
+      <trans-unit id="onboarding.moderation.hint2" datatype="html">
+        <source>Ihr könnt die Moderation jederzeit wieder ändern.</source>
+        <target state="new">You can change the moderation at any time.</target>
+      </trans-unit>
+      <trans-unit id="company-map.filter" datatype="html">
+        <source>Filter</source>
+        <target state="new">Filter</target>
+      </trans-unit>
+      <trans-unit id="company-map.howto" datatype="html">
+        <source>Erklärung</source>
+        <target state="new">Explanation</target>
+      </trans-unit>
+      <trans-unit id="company-map.ratings-filter" datatype="html">
+        <source>Nach Bewertung Filtern:</source>
+        <target state="new">Filter by Rating:</target>
+      </trans-unit>
+      <trans-unit id="company-map.all-ratings" datatype="html">
+        <source>Alle Bewertungen</source>
+        <target state="new">All Ratings</target>
+      </trans-unit>
+      <trans-unit id="company-map.critical-ratings" datatype="html">
+        <source>Kritische Bewertungen</source>
+        <target state="new">Critical Ratings</target>
+      </trans-unit>
+      <trans-unit id="company-map.medium-ratings" datatype="html">
+        <source>Mittlere Bewertungen</source>
+        <target state="new">Medium Ratings</target>
+      </trans-unit>
+      <trans-unit id="company-map.good-ratings" datatype="html">
+        <source>Gute Bewertungen</source>
+        <target state="new">Good Ratings</target>
+      </trans-unit>
+      <trans-unit id="company-map.display-settings" datatype="html">
+        <source>Anzeige:</source>
+        <target state="new">Display:</target>
+      </trans-unit>
+      <trans-unit id="company-map.teams-ratings" datatype="html">
+        <source>Team Werte</source>
+        <target state="new">Team Values</target>
+      </trans-unit>
+      <trans-unit id="company-map.arrows-ratings" datatype="html">
+        <source>Pfeile</source>
+        <target state="new">Arrows</target>
+      </trans-unit>
+      <trans-unit id="company-map.force-layout" datatype="html">
+        <source>Graph</source>
+        <target state="new">Graph</target>
+      </trans-unit>
+      <trans-unit id="company-map.circular-layout" datatype="html">
+        <source>Kreis</source>
+        <target state="new">Circle</target>
+      </trans-unit>
+      <trans-unit id="inbox.check-team" datatype="html">
+        <source>Ausgewähltes Team:</source>
+        <target state="new">Selected Team:</target>
+      </trans-unit>
+      <trans-unit id="edit" datatype="html">
+        <source>Bearbeiten</source>
+        <target state="new">Edit</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block-journey.past-deleted-topics" datatype="html">
+        <source>Gelöschte und vergangene Themen:</source>
+        <target state="new">Deleted and Past Topics:</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block-journey.prep-questions" datatype="html">
+        <source>Vorbereitungsfragen:</source>
+        <target state="new">Preparation Questions:</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block-journey.future-topics" datatype="html">
+        <source>Eure nächsten Themen:</source>
+        <target state="new">Your Next Topics:</target>
+      </trans-unit>
+      <trans-unit id="talk-planner-block-journey.topics" datatype="html">
+        <source>Themen für die Besprechung:</source>
+        <target state="new">Topics for Discussion:</target>
+      </trans-unit>
+      <trans-unit id="talk-planner.agenda.deactivated-item" datatype="html">
+        <source>Deaktiviert: Klicke auf die Checkbox zum aktivieren.</source>
+        <target state="new">Deactivated: Click on the checkbox to activate.</target>
+      </trans-unit>
+      <trans-unit id="team-detail.onboarding-done" datatype="html">
+        <source>Onboarding erledigt</source>
+        <target state="new">Onboarding completed</target>
+      </trans-unit>
+      <trans-unit id="team-detail.onboarding-not-done" datatype="html">
+        <source>Nicht erledigt</source>
+        <target state="new">Not completed</target>
+      </trans-unit>
+      <trans-unit id="company-team-detail.members.hint" datatype="html">
+        <source>Bearbeite hier die Teammitglieder.</source>
+        <target state="new">Edit team members here.</target>
+      </trans-unit>
+      <trans-unit id="company-team-detail.members.hint2" datatype="html">
+        <source>Das erste Mitglied wird automatisch zum Team Lead ernannt und erhält eine Einladung fürs Onboarding.</source>
+        <target state="new">The first member will automatically be appointed as the Team Lead and will receive an invitation for onboarding.</target>
+      </trans-unit>
+      <trans-unit id="company-team-detail.members.hint3" datatype="html">
+        <source>Wichtig: Team Leads können während dem Onboarding Teammitglieder hinzufügen, es müssen nicht alle Mitglieder hier erfasst werden!</source>
+        <target state="new">Important: Team Leads can add team members during onboarding; not all members need to be added here!</target>
+      </trans-unit>
+      <trans-unit id="company-team-detail.teamname-confirm.hint" datatype="html">
+        <source>Bestätige den Teamnamen mit dem Häkchen um Teammitglieder hinzuzufügen.</source>
+        <target state="new">Confirm the team name with the checkmark to add team members.</target>
+      </trans-unit>
+      <trans-unit id="company-team-edit-employee.add-and-send" datatype="html">
+        <source>Hinzufügen &amp; Einladung senden</source>
+        <target state="new">Add &amp; Send Invitation</target>
+      </trans-unit>
+      <trans-unit id="company-team-edit-employee.email-invitation-info" datatype="html">
+        <source>Das Mitglied wurde erfolgreich hinzugefügt und erhält in den nächsten Minuten eine Einladung.</source>
+        <target state="new">The member has been successfully added and will receive an invitation within the next few minutes.</target>
+      </trans-unit>
+      <trans-unit id="onboarding.intro.explanation-title" datatype="html">
+        <source>Willkommen auf der Moodtalk Plattform!</source>
+        <target state="new">Welcome to the Moodtalk Platform!</target>
+      </trans-unit>
+      <trans-unit id="onboarding.intro.explanation" datatype="html">
+        <source>Als Teamlead bitten wir dich, die folgenden Schritte des Onboardings durchzuführen, um dein Team aufzusetzen. Idealerweise schliesst du das Onboarding in einem Durchgang ab. Zu jedem Schritt findest du eine Anleitung, die dich unterstützt.</source>
+        <target state="new">As a Team Lead, we ask you to follow the steps of onboarding to set up your team. Ideally, you complete the onboarding in one session. Each step includes a guide to assist you.</target>
+      </trans-unit>
+      <trans-unit id="onboarding.intro-check.explanation-title" datatype="html">
+        <source>Willkommen bei der Team Überprüfung!</source>
+        <target state="new">Welcome to Team Review!</target>
+      </trans-unit>
+      <trans-unit id="onboarding.intro-check.explanation" datatype="html">
+        <source>Als Teamlead bitten wir dich, die folgenden Schritte der Überprüfung durchzuführen, um dein Team zu aktualisieren. Zu jedem Schritt findest du eine Anleitung, die dich unterstützt.</source>
+        <target state="new">As a Team Lead, we ask you to follow the steps of the review to update your team. Each step includes a guide to assist you.</target>
+      </trans-unit>
+      <trans-unit id="onboarding.teamcharter.hint2" datatype="html">
+        <source>Die hinzugefügten Regeln werden in eurem Team für alle sichtbar angezeigt. Ihr findet diese unter “Team Charta”. Die Regeln können jederzeit wieder angepasst oder entfernt werden.</source>
+        <target state="new">The added rules will be visible to everyone in your team. You can find them under &quot;Team Charter.&quot; The rules can be adjusted or removed at any time.</target>
+      </trans-unit>
+      <trans-unit id="onboarding.topics.hint2" datatype="html">
+        <source>Die gemachten Angaben sind vertraulich und werden nicht im Team angezeigt. Sie sind lediglich für unser Kundenbetreuungsteam einsehbar.</source>
+        <target state="new">The information provided is confidential and will not be displayed to the team. It is only accessible to our customer support team.</target>
+      </trans-unit>
+      <trans-unit id="onboarding.done.explanation2" datatype="html">
+        <source>Das Onboarding deines Teams ist nun erfolgreich abgeschlossen. Weitere Anweisungen/Information erfolgen per E-Mail.</source>
+        <target state="new">The onboarding of your team is now successfully completed. Further instructions/information will be sent via email.</target>
+      </trans-unit>
+      <trans-unit id="onboarding.done-check.explanation2" datatype="html">
+        <source>Die Überprüfung deines Teams ist nun erfolgreich abgeschlossen. Weitere Anweisungen/Information erfolgen per E-Mail.</source>
+        <target state="new">The review of your team is now successfully completed. Further instructions/information will be sent via email.</target>
+      </trans-unit>
+      <trans-unit id="onboarding.teamedit.hint2" datatype="html">
+        <source>Die Teammitglieder können jederzeit wieder unter &quot;Einstellungen&quot; hinzugefügt oder entfernt werden.</source>
+        <target state="new">Team members can be added or removed at any time under &quot;Settings.&quot;</target>
+      </trans-unit>
+      <trans-unit id="task-complete.title" datatype="html">
+        <source>Aufgabe abschliessen</source>
+        <target state="new">Complete Task</target>
+      </trans-unit>
+      <trans-unit id="task-complete.question" datatype="html">
+        <source>Möchtest du die folgende Aufgabe als erledigt markieren?</source>
+        <target state="new">Do you want to mark the following task as completed?</target>
+      </trans-unit>
+      <trans-unit id="task-complete.confirm" datatype="html">
+        <source>Erledigt</source>
+        <target state="new">Completed</target>
+      </trans-unit>
+      <trans-unit id="task-edit.title-create" datatype="html">
+        <source>Aufgabe erstellen</source>
+        <target state="new">Create Task</target>
+      </trans-unit>
+      <trans-unit id="task-edit.title-edit" datatype="html">
+        <source>Aufgabe bearbeiten</source>
+        <target state="new">Edit Task</target>
+      </trans-unit>
+      <trans-unit id="tasd-edit.text" datatype="html">
+        <source>Titel</source>
+        <target state="new">Title</target>
+      </trans-unit>
+      <trans-unit id="task-edit.deadline" datatype="html">
+        <source>Deadline</source>
+        <target state="new">Deadline</target>
+      </trans-unit>
+      <trans-unit id="task-edit.employee" datatype="html">
+        <source>Verantwortliche Person</source>
+        <target state="new">Responsible Person</target>
+      </trans-unit>
+      <trans-unit id="task-edit.select-employee" datatype="html">
+        <source>Wähle die verantwortliche Person</source>
+        <target state="new">Select the responsible person</target>
+      </trans-unit>
+      <trans-unit id="task-edit.update" datatype="html">
+        <source>Aktualisieren</source>
+        <target state="new">Update</target>
+      </trans-unit>
+      <trans-unit id="task-edit.create" datatype="html">
+        <source>Erstellen</source>
+        <target state="new">Create</target>
+      </trans-unit>
+      <trans-unit id="dashboard.team-tasks" datatype="html">
+        <source>Teamaufgaben</source>
+        <target state="new">Team Tasks</target>
+      </trans-unit>
+      <trans-unit id="tasks.new-task" datatype="html">
+        <source>Neue Aufgabe</source>
+        <target state="new">New Task</target>
+      </trans-unit>
+      <trans-unit id="tasks.no-tasks text-muted" datatype="html">
+        <source>Es wurden noch keine Aufgaben erfasst.</source>
+        <target state="new">No tasks have been recorded yet.</target>
+      </trans-unit>
+      <trans-unit id="tasks.deadline-tooltip" datatype="html">
+        <source>Deadline ist am</source>
+        <target state="new">Deadline is on</target>
+      </trans-unit>
+      <trans-unit id="tasks.no-deadline-tooltip" datatype="html">
+        <source>Keine Deadline gesetzt.</source>
+        <target state="new">No deadline set.</target>
+      </trans-unit>
+      <trans-unit id="tasks.no-employee-tooltip" datatype="html">
+        <source>Nicht zugewiesen.</source>
+        <target state="new">Not assigned.</target>
+      </trans-unit>
+      <trans-unit id="tasks.edit" datatype="html">
+        <source>Bearbeiten</source>
+        <target state="new">Edit</target>
+      </trans-unit>
+      <trans-unit id="tasks.done" datatype="html">
+        <source>Abschliessen</source>
+        <target state="new">Complete</target>
+      </trans-unit>
+      <trans-unit id="team-charta.normal-view" datatype="html">
+        <source>Normale Ansicht</source>
+        <target state="new">Normal View</target>
+      </trans-unit>
+      <trans-unit id="task-delete.title" datatype="html">
+        <source>Aufgabe löschen</source>
+        <target state="new">Delete Task</target>
+      </trans-unit>
+      <trans-unit id="task-edit.delete" datatype="html">
+        <source>Aufgabe löschen</source>
+        <target state="new">Delete Task</target>
+      </trans-unit>
+      <trans-unit id="onboarding.moderation-check-step-2" datatype="html">
+        <source>Schritt 2: Moderation bestimmen</source>
+        <target state="new">Step 2: Assign Moderation</target>
+      </trans-unit>
+      <trans-unit id="task-delete.question" datatype="html">
+        <source>Möchtest du die folgende Aufgabe wirklich löschen?</source>
+        <target state="new">Do you really want to delete the following task?</target>
+      </trans-unit>
+      <trans-unit id="tasks.your-tasks" datatype="html">
+        <source>Deine Aufgaben</source>
+        <target state="new">Your Tasks</target>
+      </trans-unit>
+      <trans-unit id="teamwork-map-details.next-focus-topics" datatype="html">
+        <source>Nächste Fokusthemen:</source>
+        <target state="new">Next Focus Topics:</target>
+      </trans-unit>
+      <trans-unit id="map.next-focus-topics" datatype="html">
+        <source>Nächste Fokusthemen</source>
+        <target state="new">Next Focus Topics</target>
+      </trans-unit>
+      <trans-unit id="map.average-mood-rating" datatype="html">
+        <source>Durchschnittliche Bewertung der Stimmung</source>
+        <target>Average Mood Rating</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

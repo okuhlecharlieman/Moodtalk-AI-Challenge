@@ -1,0 +1,40 @@
+@import "../styles/variables.scss";
+
+.nav-item,
+.nav-item-sm {
+  transition: 0.3s;
+
+  filter: grayscale(0%) opacity(70%);
+
+  &:hover,
+  &:hover img,
+  &:hover i {
+    filter: grayscale(0%) opacity(100%);
+  }
+
+  &.active,
+  &.active img,
+  &.active i {
+    filter: grayscale(0%) opacity(100%);
+  }
+
+  img,
+  i {
+    transition: 0.3s;
+    filter: grayscale(100%) opacity(100%);
+  }
+}
+
+.nav-item {
+  &.active {
+    background-color: $gray-100;
+  }
+}
+
+.nav-item-sm {
+  &.active {
+    .nav-link {
+      color: $primary-500;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+<div class="d-flex flex-row">
+  <h3 class="m-0 flex-grow-1">Planung</h3>
+</div>
+
+<div class="table-wrapper mt-3 mb-6 bg-white shadow-sm">
+  <table>
+    <tr>
+      <th (click)="previousWeek()" class="d-flex justify-content-start"><i class="bi bi-caret-left"></i></th>
+      <th colspan="6" style="text-align: center">WK {{ getWeekNumber() }}</th>
+      <th (click)="nextWeek()" class="d-flex justify-content-end"><i class="bi bi-caret-right"></i></th>
+    </tr>
+    <tr>
+      <th></th>
+      <th>{{ nthDayOfWeek(0) | date: "dd.MM.yyyy" }}</th>
+      <th>{{ nthDayOfWeek(1) | date: "dd.MM.yyyy" }}</th>
+      <th>{{ nthDayOfWeek(2) | date: "dd.MM.yyyy" }}</th>
+      <th>{{ nthDayOfWeek(3) | date: "dd.MM.yyyy" }}</th>
+      <th>{{ nthDayOfWeek(4) | date: "dd.MM.yyyy" }}</th>
+      <th>{{ nthDayOfWeek(5) | date: "dd.MM.yyyy" }}</th>
+      <th>{{ nthDayOfWeek(6) | date: "dd.MM.yyyy" }}</th>
+    </tr>
+    @for (employee of employees; track employee) {
+      <tr class="bg-gray-50-hover cursor-pointer">
+        <th>{{ employee.name }}</th>
+        @for (day of [0, 1, 2, 3, 4, 5, 6]; track day) {
+          <td>
+            <ng-select [multiple]="false" [searchable]="true" [clearable]="true" style="width: 100%">
+              @for (project of projects; track project) {
+                <ng-option [value]="project.id">{{ project.name }}</ng-option>
+              }
+            </ng-select>
+          </td>
+        }
+      </tr>
+    }
+  </table>
+</div>

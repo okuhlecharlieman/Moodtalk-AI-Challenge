@@ -1,0 +1,255 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/maps";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/utilities";
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "overflow":
+      map-merge(
+        map-get($utilities, "overflow"),
+        (
+          responsive: "true"
+        )
+      ),
+    "height":
+      map-merge(
+        map-get($utilities, "height"),
+        (
+          responsive: "true",
+          values: (
+            25: 25%,
+            50: 50%,
+            75: 75%,
+            100: 100%,
+            50px: 50px,
+            100px: 100px,
+            150px: 150px,
+            200px: 200px,
+            250px: 250px,
+            auto: auto
+          )
+        )
+      ),
+    "width":
+      map-merge(
+        map-get($utilities, "width"),
+        (
+          responsive: "true",
+          values: (
+            25: 25%,
+            50: 50%,
+            75: 75%,
+            100: 100%,
+            50px: 50px,
+            100px: 100px,
+            150px: 150px,
+            200px: 200px,
+            250px: 250px,
+            auto: auto
+          )
+        )
+      ),
+    "background-color":
+      map-merge(
+        map-get($utilities, "background-color"),
+        (
+          state: hover
+        )
+      ),
+    "color":
+      map-merge(
+        map-get($utilities, "color"),
+        (
+          state: hover
+        )
+      )
+  )
+);
+
+.btn-lg {
+  @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $btn-font-size-lg, $btn-border-radius-lg);
+}
+
+.btn-sm {
+  @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $btn-font-size-sm, $btn-border-radius-sm);
+}
+
+// responsive buttons
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    .btn#{$infix}-sm {
+      @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $btn-font-size-sm, $btn-border-radius-sm);
+    }
+
+    .btn#{$infix}-md {
+      @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-border-radius);
+    }
+
+    .btn#{$infix}-lg {
+      @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $btn-font-size-lg, $btn-border-radius-lg);
+    }
+  }
+}
+
+@import "../../../node_modules/bootstrap/scss/utilities/api";
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    .fs-#{$breakpoint}-xl {
+      font-size: var(--fs-xl) !important;
+    }
+    .fs-#{$breakpoint}-l {
+      font-size: var(--fs-l) !important;
+    }
+    .fs-#{$breakpoint}-m {
+      font-size: var(--fs-m) !important;
+    }
+    .fs-#{$breakpoint}-ms {
+      font-size: var(--fs-ms) !important;
+    }
+    .fs-#{$breakpoint}-s {
+      font-size: var(--fs-s) !important;
+    }
+    .fs-#{$breakpoint}-xs {
+      font-size: var(--fs-xs) !important;
+    }
+    .fs-#{$breakpoint}-xxs {
+      font-size: var(--fs-xxs) !important;
+    }
+  }
+}
+
+.fs-xl {
+  font-size: var(--fs-xl);
+}
+.fs-l {
+  font-size: var(--fs-l);
+}
+.fs-m {
+  font-size: var(--fs-m);
+}
+.fs-ms {
+  font-size: var(--fs-ms);
+}
+.fs-s {
+  font-size: var(--fs-s);
+}
+.fs-xs {
+  font-size: var(--fs-xs);
+}
+.fs-xxs {
+  font-size: var(--fs-xxs);
+}
+
+.border-dashed {
+  border-style: dashed !important;
+}
+
+.border-solid {
+  border-style: solid !important;
+}
+
+.transition-ease {
+  transition: 0.2s ease;
+}
+
+.white-space-pre-wrap {
+  white-space: pre-wrap;
+}
+
+.no-box-shadow {
+  box-shadow: none !important;
+}
+
+.mood-gradient {
+  /**
+  Gradients have been created with https://non-boring-gradients.netlify.app/
+
+  Input is $primary-color (#0e686b) and $color-teal (#45d8dc) with 135 degree
+   */
+  background: linear-gradient(
+    135deg,
+    rgb(5.49% 40.784% 41.961%) 0%,
+    rgb(5.574% 40.956% 42.134%) 6.25%,
+    rgb(5.827% 41.471% 42.653%) 12.5%,
+    rgb(6.248% 42.328% 43.519%) 18.75%,
+    rgb(6.838% 43.529% 44.73%) 25%,
+    rgb(7.597% 45.074% 46.288%) 31.25%,
+    rgb(8.523% 46.961% 48.192%) 37.5%,
+    rgb(9.619% 49.191% 50.443%) 43.75%,
+    rgb(10.882% 51.765% 53.039%) 50%,
+    rgb(12.315% 54.681% 55.982%) 56.25%,
+    rgb(13.915% 57.941% 59.271%) 62.5%,
+    rgb(15.685% 61.544% 62.906%) 68.75%,
+    rgb(17.623% 65.49% 66.887%) 75%,
+    rgb(19.729% 69.779% 71.215%) 81.25%,
+    rgb(22.004% 74.412% 75.888%) 87.5%,
+    rgb(24.447% 79.387% 80.908%) 93.75%,
+    rgb(27.059% 84.706% 86.275%) 100%
+  );
+  &:hover {
+    /**
+    Gradient transitions are not widely supported yet (see https://stackoverflow.com/a/63848864).
+    I have decided to not include a transition for now and just darken the colours by 20%
+
+    Colours used: #0b5355 and #24bec2
+    */
+    background: linear-gradient(
+      135deg,
+      rgb(4.314% 32.549% 33.333%) 0%,
+      rgb(4.352% 32.713% 33.5%) 6.25%,
+      rgb(4.467% 33.205% 34.001%) 12.5%,
+      rgb(4.658% 34.024% 34.836%) 18.75%,
+      rgb(4.926% 35.172% 36.005%) 25%,
+      rgb(5.271% 36.647% 37.508%) 31.25%,
+      rgb(5.692% 38.45% 39.344%) 37.5%,
+      rgb(6.19% 40.581% 41.515%) 43.75%,
+      rgb(6.765% 43.039% 44.02%) 50%,
+      rgb(7.416% 45.826% 46.858%) 56.25%,
+      rgb(8.143% 48.94% 50.031%) 62.5%,
+      rgb(8.948% 52.382% 53.537%) 68.75%,
+      rgb(9.828% 56.152% 57.377%) 75%,
+      rgb(10.786% 60.25% 61.552%) 81.25%,
+      rgb(11.82% 64.675% 66.06%) 87.5%,
+      rgb(12.93% 69.429% 70.902%) 93.75%,
+      rgb(14.118% 74.51% 76.078%) 100%
+    );
+  }
+}
+
+.popover-lg {
+  max-width: 600px;
+}
+
+.no-caret {
+  &::after {
+    display: none !important;
+  }
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+.dvh-100 {
+  height: 100dvh;
+}
+
+.no-p-margin {
+  p {
+    margin: 0;
+  }
+}
+
+.scale-1_5 {
+  transform: scale(1.5);
+}
+
+.text-decoration-hover-underline:hover {
+  text-decoration: underline;
+}

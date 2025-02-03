@@ -1,0 +1,12 @@
+registry=https://pkgs.dev.azure.com/moodtalk/_packaging/moodtalk/npm/registry/
+
+always-auth=true
+
+; begin auth token
+//pkgs.dev.azure.com/moodtalk/_packaging/moodtalk/npm/registry/:username=moodtalk
+//pkgs.dev.azure.com/moodtalk/_packaging/moodtalk/npm/registry/:_password=MAVEN_PASSWORD
+//pkgs.dev.azure.com/moodtalk/_packaging/moodtalk/npm/registry/:email=admin@moodtalk.ch
+//pkgs.dev.azure.com/moodtalk/_packaging/moodtalk/npm/:username=moodtalk
+//pkgs.dev.azure.com/moodtalk/_packaging/moodtalk/npm/:_password=MAVEN_PASSWORD
+//pkgs.dev.azure.com/moodtalk/_packaging/moodtalk/npm/:email=admin@moodtalk.ch
+; end auth token

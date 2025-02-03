@@ -1,0 +1,42 @@
+moodtalk:
+  email:
+    host: http://app.planner.localhost
+    send-emails: false
+    connection-string: replace
+    send-azure-emails: false
+    use-recipient: false
+spring:
+  mail:
+    username: noreply@planner.ch
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: false
+          auth: false
+    host: localhost
+    password: replace
+    port: 1025
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      jakarta:
+        persistence:
+          validation:
+            mode: none
+  liquibase:
+    enabled: "true"
+    change-log: classpath:/db/changelog/changelog-master.xml
+  datasource:
+    password: password1234
+    url: jdbc:mysql://localhost:3306/planner
+    username: planner
+  freemarker:
+    check-template-location: false
+  security:
+    config:
+      corsAllowedOrigins:
+        - http://app.planner.localhost
+      resourceServers:
+        - http://id.planner.localhost/realms/planner

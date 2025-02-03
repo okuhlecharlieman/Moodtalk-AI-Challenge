@@ -1,0 +1,66 @@
+version: "3.8"
+services:
+  reverse-proxy:
+    image: openresty/openresty:1.27.1.1-1-noble
+    volumes:
+      - ./apps/reverse-proxy/infra/localhost/conf.d/:/etc/nginx/conf.d
+      - ./apps/reverse-proxy/static:/usr/local/openresty/nginx/html/static.planner
+      - ./apps/reverse-proxy/infra/localhost/certs:/usr/local/openresty/certs
+    ports:
+      - 80:80
+      - 443:443
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+  db:
+    image: mysql:8.4
+    restart: always
+    environment:
+      MYSQL_USER: planner
+      MYSQL_PASSWORD: password1234
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: planner
+    volumes:
+      - type: bind
+        source: ./mysqldata
+        target: /var/lib/mysql
+      - type: bind
+        source: ./docker-compose/mysql/init
+        target: /docker-entrypoint-initdb.d
+    ports:
+      - 3306:3306
+  mailhog:
+    image: mailhog/mailhog:latest
+    restart: always
+    ports:
+      - 1025:1025 # smtp server
+      - 8025:8025 # web ui
+  keycloak:
+    image: quay.io/keycloak/keycloak:26.0.5
+    environment:
+      kc_db: mysql
+      kc_db_url: jdbc:mysql://host.docker.internal:3306/keycloak
+      kc_db_username: planner
+      kc_db_password: password1234
+      KEYCLOAK_USER: admin
+      KEYCLOAK_PASSWORD: admin
+      KC_BOOTSTRAP_ADMIN_USERNAME: admin
+      KC_BOOTSTRAP_ADMIN_PASSWORD: admin
+    volumes:
+      - ./apps/idp/infra/localhost/import:/opt/keycloak/data/import
+      - ./apps/idp/themes/:/opt/keycloak/themes
+      - ./apps/idp/extensions/magiclink/target/ch.planner-magiclink.jar:/opt/keycloak/providers/magiclink.jar
+      - ./apps/idp/extensions/idp-username-form/target/ch.planner-idp-username-form.jar:/opt/keycloak/providers/idp-username-form.jar
+      - ./apps/idp/extensions/idp-autolink-and-verify-email/target/ch.planner-idp-autolink-and-verify-email.jar:/opt/keycloak/providers/idp-autolink-and-verify-email.jar
+    ports:
+      - "8081:8081"
+    command:
+      - start-dev
+      - --http-port=8081
+      - --import-realm
+      - --spi-theme-cache-themes=false
+      - --spi-theme-cache-templates=false
+      - --hostname-strict=false
+      - --log-level=INFO
+    depends_on:
+      - db
+      - mailhog

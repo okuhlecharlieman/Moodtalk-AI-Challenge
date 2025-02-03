@@ -1,0 +1,7 @@
+<div class="d-inline-block" [ngbTooltip]="tooltip()" placement="top">
+  <button [ngClass]="ngClassesBtn()" [disabled]="disabled" [type]="type" [attr.ngbAutofocus]="ngbAutoFocus ? '' : null" appFocusRemover>
+    <i *ngIf="icon && (iconPosition === 'start' || iconPosition === 'icon-only')" [ngClass]="ngClassesIcon()"></i>
+    <ng-content></ng-content>
+    <i *ngIf="icon && iconPosition === 'end'" [ngClass]="ngClassesIcon()"></i>
+  </button>
+</div>

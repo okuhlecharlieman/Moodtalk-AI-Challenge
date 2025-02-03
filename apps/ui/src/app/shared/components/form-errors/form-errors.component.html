@@ -1,0 +1,6 @@
+<div class="fs-s px-1 py-1" *ngIf="reserveSpace && (!formControl || !formControl.invalid || (!formControl.dirty && !formControl.touched))">
+  &nbsp;
+</div>
+<div [ngClass]="errorMessageCssClasses" *ngIf="formControl && formControl.invalid && (formControl.dirty || formControl.touched)">
+  {{ getMessage() }}
+</div>

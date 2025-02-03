@@ -1,0 +1,27 @@
+<mjml>
+  <mj-head>
+    <mj-style inline="inline">
+      .link-nostyle { color: inherit; text-decoration: none }
+    </mj-style>
+  </mj-head>
+  <mj-font name="Manrope" href="https://fonts.googleapis.com/css?family=Manrope" />
+  <mj-body background-color="#ffffff">
+    <mj-section padding-top="20px" padding-bottom="0px">
+      <mj-column vertical-align="middle" width="100%">
+        <mj-image align="center" padding="25px" src="https://static.moodtalk.ch/logo.svg" width="150px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-text font-size="18px" font-family="Manrope, open Sans Helvetica, Arial, sans-serif">nested</mj-text>
+    </mj-section>
+    <mj-section background-color="#0e686b" full-width="full-width">
+      <mj-column vertical-align="middle" width="100%">
+        <mj-text align="center" font-size="14px" color="#ffffff" font-family="Manrope, open Sans Helvetica, Arial, sans-serif">
+          Copyright © 2024 Moodtalk AG, All rights reserved.
+        </mj-text>
+        <mj-text align="center" font-size="14px" color="#ffffff" font-family="Manrope, open Sans Helvetica, Arial, sans-serif">
+          Moodtalk AG<br>Reussstrasse 5<br>6468 Attinghausen UR<br>Schweiz</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

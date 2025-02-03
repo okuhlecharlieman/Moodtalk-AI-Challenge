@@ -1,0 +1,53 @@
+<div class="d-flex flex-row">
+  <h3 class="m-0 flex-grow-1">Mitarbeiter</h3>
+  <app-button icon="bi-plus" (click)="createEmployee()">Hinzufügen</app-button>
+</div>
+
+<div class="table-wrapper mt-3 mb-6 bg-white shadow-sm">
+  <table>
+    <tr>
+      <th i18n="@@employee.name">Name</th>
+    </tr>
+    @for (employee of employees; track employee) {
+      <tr class="bg-gray-50-hover cursor-pointer">
+        <td>
+          {{ employee.name }}
+        </td>
+      </tr>
+    }
+    @if (employees.length === 0) {
+      <tr>
+        <td colspan="3" class="text-center">
+          <i i18n="@@employees.no-employees">Keine Mitarbeiter erfasst.</i>
+        </td>
+      </tr>
+    }
+  </table>
+</div>
+
+<div class="d-flex flex-row">
+  <h3 class="m-0 flex-grow-1">Projekte</h3>
+  <app-button icon="bi-plus" (click)="createProject()">Hinzufügen</app-button>
+</div>
+
+<div class="table-wrapper mt-3 bg-white shadow-sm">
+  <table>
+    <tr>
+      <th i18n="@@project.name">Name</th>
+    </tr>
+    @for (project of projects; track project) {
+      <tr class="bg-gray-50-hover cursor-pointer">
+        <td>
+          {{ project.name }}
+        </td>
+      </tr>
+    }
+    @if (projects.length === 0) {
+      <tr>
+        <td colspan="3" class="text-center">
+          <i i18n="@@project.no-projects">Keine Projekte erfasst.</i>
+        </td>
+      </tr>
+    }
+  </table>
+</div>

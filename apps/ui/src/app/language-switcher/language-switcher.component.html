@@ -1,0 +1,14 @@
+<div class="d-flex justify-content-center">
+  <ng-container *ngFor="let lang of languages; index as i">
+    <span
+      class="px-2 fw-semibold"
+      [ngClass]="{
+        'text-primary-500': getCurrentLang() === lang,
+        'cursor-pointer text-primary-500-hover text-gray-300': getCurrentLang() !== lang,
+        'border-end': i !== languages.length - 1
+      }"
+      (click)="switchLang(lang)">
+      {{ lang | uppercase }}
+    </span>
+  </ng-container>
+</div>

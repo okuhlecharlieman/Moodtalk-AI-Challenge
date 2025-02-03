@@ -1,0 +1,62 @@
+@media print {
+  @page {
+    size: 210mm 297mm;
+    margin: 6mm;
+  }
+
+  #print-content {
+    background-color: white !important;
+    margin-left: 0 !important;
+  }
+
+  .outer-tile {
+    break-inside: avoid;
+  }
+
+  .tile {
+    > div,
+    span,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      break-after: avoid;
+    }
+    box-shadow: none !important;
+    border: 1px solid $gray-700 !important;
+    .tile-header {
+      border-radius: 6px;
+    }
+
+    .tile-compact {
+      display: block !important;
+      break-after: auto !important;
+      break-inside: avoid !important;
+      > div {
+        break-after: auto !important;
+      }
+    }
+  }
+
+  .topic-title {
+    break-after: avoid !important;
+  }
+
+  div[echarts] {
+    width: 100% !important;
+    > div {
+      width: 100% !important;
+      height: auto !important;
+      > canvas {
+        width: 100% !important;
+        height: auto !important;
+      }
+    }
+  }
+
+  .option-tile {
+    display: block !important;
+  }
+}

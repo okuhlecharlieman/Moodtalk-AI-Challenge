@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "issuer": "http://id.planner.localhost/realms/planner",
+    "clientId": "planner",
+    "requireHttps": false,
+    "addLocaleToRedirectUri": true
+  },
+  "api": {
+    "baseUrl": "http://api.planner.localhost"
+  }
+}

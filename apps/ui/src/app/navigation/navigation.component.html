@@ -1,0 +1,29 @@
+<div class="mt-5 mb-auto">
+  <ul class="nav flex-column">
+    <li
+      class="nav-item-sm cursor-pointer bg-gray-50-hover py-0 pe-2"
+      [ngClass]="currentUrl.indexOf('planner') > -1 ? 'active' : ''"
+      routerLink="/planner">
+      <!--      (click)="navItemClicked.next()">-->
+      <a class="nav-link d-flex gap-4 ms-5 ms-xxxl-6 align-items-center py-2">
+        <i class="bi bi-calendar"></i>
+        <span i18n="@@navigation.planner">Planung</span>
+      </a>
+    </li>
+    <li
+      class="nav-item-sm cursor-pointer bg-gray-50-hover py-0 pe-2"
+      [ngClass]="currentUrl.indexOf('settings') > -1 ? 'active' : ''"
+      routerLink="/settings">
+      <!--      (click)="navItemClicked.next()">-->
+      <a class="nav-link d-flex gap-4 ms-5 ms-xxxl-6 align-items-center py-2">
+        <i class="bi bi-gear-fill"></i>
+        <span i18n="@@navigation.settings">Einstellungen</span>
+      </a>
+    </li>
+  </ul>
+</div>
+<div class="mb-3 mt-5">
+  <div class="mt-3 d-flex flex-column gap-3 align-items-center">
+    <app-language-switcher></app-language-switcher>
+  </div>
+</div>

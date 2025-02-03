@@ -1,0 +1,15 @@
+<app-modal #modal>
+  <ng-container slot="content">
+    <h4 i18n="@@employee.title">Mitarbeiter hinzufügen</h4>
+
+    <div class="form-group mb-5">
+      <label class="cursor-pointer fw-bold mb-1" for="name-form-control" i18n="@@employee.name"> Name: </label>
+      <input class="form-control" type="text" id="name-form-control" [formControl]="nameFormControl" />
+      <app-form-errors [control]="nameFormControl"></app-form-errors>
+    </div>
+  </ng-container>
+  <div slot="footer" class="d-flex justify-content-between">
+    <app-button (click)="addEmployee()" [disabled]="nameFormControl.invalid" i18n="@@add">Hinzufügen</app-button>
+    <app-button variant="gray" (click)="modal.dismiss()" i18n="@@cancel">Abbrechen</app-button>
+  </div>
+</app-modal>

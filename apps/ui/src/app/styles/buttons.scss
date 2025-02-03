@@ -1,0 +1,73 @@
+@import "./variables";
+
+.btn:focus {
+  background-color: var(--bs-btn-bg);
+}
+
+.btn-primary-500 {
+  --bs-btn-bg: #{$primary-500};
+  --bs-btn-border-color: #{$primary-500};
+  --bs-btn-focus-shadow-rgb: #{$primary-400};
+  --bs-btn-disabled-bg: #{$primary-400};
+  --bs-btn-disabled-border-color: #{$primary-400};
+  --bs-btn-hover-bg: #{$primary-400};
+  --bs-btn-hover-border-color: #{$primary-400};
+}
+
+.btn-primary-400 {
+  --bs-btn-bg: #{$primary-400};
+  --bs-btn-border-color: #{$primary-400};
+  --bs-btn-focus-shadow-rgb: #{$primary-300};
+  --bs-btn-disabled-bg: #{$primary-300};
+  --bs-btn-disabled-border-color: #{$primary-300};
+  --bs-btn-hover-bg: #{$primary-300};
+  --bs-btn-hover-border-color: #{$primary-300};
+}
+
+.btn-primary-300 {
+  --bs-btn-bg: #{$primary-300};
+  --bs-btn-border-color: #{$primary-300};
+  --bs-btn-focus-shadow-rgb: #{$primary-100};
+  --bs-btn-disabled-bg: #{$primary-100};
+  --bs-btn-disabled-border-color: #{$primary-100};
+  --bs-btn-hover-bg: #{$primary-100};
+  --bs-btn-hover-border-color: #{$primary-100};
+}
+
+.btn-primary-100 {
+  --bs-btn-bg: #{$primary-100};
+  --bs-btn-border-color: #{$primary-100};
+  --bs-btn-focus-shadow-rgb: #{$primary-300};
+  --bs-btn-disabled-bg: #{$primary-300};
+  --bs-btn-disabled-border-color: #{$primary-300};
+  --bs-btn-hover-bg: #{$primary-300};
+  --bs-btn-hover-border-color: #{$primary-300};
+}
+
+.btn-gray-200 {
+  --bs-btn-bg: #{$gray-200};
+  --bs-btn-border-color: #{$gray-200};
+  --bs-btn-focus-shadow-rgb: #{$gray-100};
+  --bs-btn-disabled-bg: #{$gray-200};
+  --bs-btn-disabled-border-color: #{$gray-00};
+  --bs-btn-hover-bg: #{$gray-300};
+  --bs-btn-hover-border-color: #{$gray-100};
+  --bs-btn-disabled-color: #{$gray-700};
+}
+
+.btn-outline-gray-200 {
+  --bs-btn-hover-bg: #{$gray-200};
+  --bs-btn-active-bg: #{$gray-200};
+  --bs-btn-disabled-color: #{$gray-200};
+}
+
+.btn-blue-300 {
+  --bs-btn-hover-bg: #{$blue-300};
+  --bs-btn-hover-border-color: #{$primary-400};
+}
+
+.btn-outline-white {
+  --bs-btn-hover-bg: #{rgba($white, 0.25)};
+  --bs-btn-active-bg: #{rgba($white, 0.25)};
+  --bs-btn-disabled-color: #{rgba($white, 0.25)};
+}

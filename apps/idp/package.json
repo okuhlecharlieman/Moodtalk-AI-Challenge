@@ -1,0 +1,15 @@
+{
+  "name": "idp",
+  "version": "0.0.0-DEV",
+  "scripts": {
+    "build": "postcss themes/planner/login/resources/css/styles.css -o dist/themes/moodtalk/login/resources/css/styles.css"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0"
+  },
+  "devDependencies": {
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0"
+  }
+}

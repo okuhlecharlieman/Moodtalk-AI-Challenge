@@ -1,0 +1,19 @@
+<div class="text-center container">
+  <div class="row">
+    <div class="col-lg-6 col-md-8 mx-auto">
+      <div class="d-flex flex-column min-vh-100 justify-content-center">
+        <div class="bg-white p-6 shadow rounded text-center">
+          <h2 i18n="@@user-not-found.title">Account nicht gefunden</h2>
+          <p i18n="@@user-not-found.text1">Wir konnten deinen Account nicht finden.</p>
+          <app-button (click)="goToLogin()" i18n="@@user-not-found.go-to-login">Erneut zum Login</app-button>
+        </div>
+        <div class="mt-6">
+          <app-language-switcher></app-language-switcher>
+        </div>
+        <p class="mt-4 text-gray-700 d-flex gap-6 justify-content-center">
+          <span>Powered by Planner</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

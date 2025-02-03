@@ -1,0 +1,25 @@
+<div ngbDropdown [placement]="placement" *ngIf="user">
+  <button
+    type="button"
+    class="d-flex align-items-center justify-content-center link-dark text-decoration-none bg-white border-0 px-0 no-caret py-2 py-md-1 py-xxxl-2 px-4 px-md-2 px-xxxl-4 bg-gray-50-hover rounded"
+    id="topnavDropdown"
+    ngbDropdownToggle>
+    <div class="d-flex flex-fill align-items-center gap-3">
+      <app-user-initials [name]="user.email"></app-user-initials>
+      <div class="d-flex flex-column gap-0 align-items-start lh-md text-wrap text-break text-start">
+        <div class="d-flex gap-1 align-items-center">
+          <span class="text-primary-500 fs-s">{{ user.email }}</span>
+          <i class="bi bi-caret-down-fill fs-xs"></i>
+        </div>
+        <span class="text-gray-600 fs-xs">{{ user.company.name }}</span>
+      </div>
+    </div>
+  </button>
+  <div ngbDropdownMenu aria-labelledby="topnavDropdown" style="max-height: 90vh; overflow-y: auto">
+    @if (isJwtAuthenticated()) {
+      <button class="fs-s d-flex align-items-center px-2 gap-3 text-wrap" (click)="logout()" ngbDropdownItem>
+        <i class="bi bi-door-closed"></i><span i18n="@@app.logout">Logout</span>
+      </button>
+    }
+  </div>
+</div>
