@@ -7,17 +7,16 @@
         <version>3.4.0</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.ai</groupId>
-                <artifactId>spring-ai-bom</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+    <repositories>
+        <repository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/milestone</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
     <groupId>ch.planner</groupId>
     <artifactId>planner-svc</artifactId>
     <version>0.0.0-DEV-SNAPSHOT</version>
@@ -71,7 +70,7 @@
         <dependency>
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-azure-openai</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0-M5</version>
         </dependency>
 
 
