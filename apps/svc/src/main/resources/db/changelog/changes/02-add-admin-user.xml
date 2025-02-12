@@ -1,0 +1,14 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet id="02-add-admin-user" author="jop" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <sql>
+            insert into company(id, name, logo) values ('196230d0-1cf0-45a0-b73e-9fdc10bd1a7d', 'Test Company', '');
+            insert into user (id, email, lang, fk_company_id) values ('69ab4257-ffba-4e07-9ac8-7a3bd6269dcb', 'admin@planner.ch', 'EN', '196230d0-1cf0-45a0-b73e-9fdc10bd1a7d');
+        </sql>
+
+    </changeSet>
+</databaseChangeLog>

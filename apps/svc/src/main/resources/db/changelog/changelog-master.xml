@@ -5,4 +5,5 @@
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
 
     <include file="db/changelog/changes/01-init-schema.xml"/>
+    <include file="db/changelog/changes/02-add-admin-user.xml"/>
 </databaseChangeLog>
