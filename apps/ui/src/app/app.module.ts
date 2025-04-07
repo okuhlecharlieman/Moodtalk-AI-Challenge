@@ -36,7 +36,6 @@ import {ModalComponent} from './shared/components/modal/modal.component';
 import {NavigationComponent} from './navigation/navigation.component';
 import {UserInitialsComponent} from './shared/components/user-initials/user-initials.component';
 import {NoUserFoundComponent} from './auth/no-user-found/no-user-found.component';
-import {ToastsComponent} from './shared/components/toasts/toasts.component';
 import {visualFeatureKey, visualReducer} from './shared/state/visual/visual.reducers';
 import {UserNavigationComponent} from './navigation/user-navigation/user-navigation.component';
 import {ButtonComponent} from './shared/components/button/button.component';
@@ -44,6 +43,7 @@ import {EmployeeComponent} from './settings/employee/employee.component';
 import {FormErrorsComponent} from './shared/components/form-errors/form-errors.component';
 import {ProjectComponent} from './settings/project/project.component';
 import {PlannerComponent} from './planner/planner.component';
+import {ToastsComponent} from './shared/components/toasts/toasts.component';
 
 registerLocaleData(localeDe);
 registerLocaleData(localeFr);
@@ -85,6 +85,7 @@ export function getApiConfiguration(config: AppConfig): Configuration {
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
     NgbModule,
     NgSelectModule,
     AuthModule.forRoot(),
@@ -112,16 +113,18 @@ export function getApiConfiguration(config: AppConfig): Configuration {
     }),
     EffectsModule.forRoot([DataEffects]),
     StoreDevtoolsModule.instrument({
-      maxAge: 25, // Retains last 25 states
-      logOnly: environment.production, // Restrict extension to log-only mode
-      autoPause: true, // Pauses recording actions and state changes when the extension window is not open
+      maxAge: 25,
+      logOnly: environment.production,
+      autoPause: true,
       connectInZone: true
     }),
-    ReactiveFormsModule,
     LottieModule.forRoot({player: playerFactory}),
     ToastsComponent
   ],
-  providers: [{provide: LOCALE_ID, useValue: getLocale()}, DatePipe],
+  providers: [
+    {provide: LOCALE_ID, useValue: getLocale()}, 
+    DatePipe
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

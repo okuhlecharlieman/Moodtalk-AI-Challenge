@@ -1,10 +1,10 @@
-import {Injectable} from '@angular/core';
+import {Injectable, Inject} from '@angular/core';
 import {Router} from '@angular/router';
 import {AuthConfig, OAuthService} from 'angular-oauth2-oidc';
 import {BehaviorSubject, Observable, of} from 'rxjs';
-import {catchError, filter, map, take} from 'rxjs/operators';
+import {catchError, filter, map, take, tap} from 'rxjs/operators';
 import {Store} from '@ngrx/store';
-import {PlannerStub, UserDto} from '../../generated';
+import {PlannerStub, PLANNER_STUB, UserDto} from '../../generated';
 import {AppState} from '../shared/state/app.state';
 import {setUser} from '../shared/state/data/data.actions';
 
@@ -48,7 +48,7 @@ export class JwtAuthService {
   constructor(
     private authConfig: AuthConfig,
     private oauthService: OAuthService,
-    private plannerStub: PlannerStub,
+    @Inject(PLANNER_STUB) private plannerStub: PlannerStub,
     private router: Router,
     private store: Store<AppState>
   ) {
@@ -129,6 +129,9 @@ export class JwtAuthService {
 
   public loadUser(): Observable<boolean> {
     return this.plannerStub.getUser().pipe(
+      tap((response: UserDto) => {
+        this.userSubject$.next(response);
+      }),
       map((response) => {
         this.userSubject$.next(response);
         this.isInitializedSubject$.next(true);

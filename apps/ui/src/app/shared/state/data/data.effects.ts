@@ -2,7 +2,7 @@ import {Inject, Injectable, LOCALE_ID} from '@angular/core';
 
 import {Actions, createEffect, ofType} from '@ngrx/effects';
 import {catchError, map, switchMap} from 'rxjs/operators';
-import {LanguageDto} from '../../../../generated';
+import {Language, LanguageDto} from '../../../../generated';
 import {WINDOW} from '../../../app.config';
 import {
   addOrUpdateEmployee,
@@ -94,7 +94,7 @@ export class DataEffects {
     this.actions$.pipe(
       ofType(setUser),
       map((action) => {
-        const userLocale = (action.user?.language || LanguageDto.De).toLowerCase();
+        const userLocale = (action.user?.language || Language.De).toLowerCase();
         if (this.locale.indexOf(userLocale) > -1) {
           // eslint-disable-next-line no-console
           console.info('User locale', userLocale, 'present in current locale', this.locale);

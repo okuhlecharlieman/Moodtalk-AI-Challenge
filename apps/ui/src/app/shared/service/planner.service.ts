@@ -1,23 +1,23 @@
-import {Inject, Injectable, LOCALE_ID} from '@angular/core';
-
-import {Observable, of} from 'rxjs';
-import {switchMap} from 'rxjs/operators';
+import { Inject, Injectable, LOCALE_ID } from '@angular/core';
+import { Observable, of } from 'rxjs';
+import { switchMap } from 'rxjs/operators';
 import {
   EmployeeDto,
   EmployeeProperties,
-  LanguageDto,
+  Language,
   PlannerStub,
+  PLANNER_STUB,
   ProjectDto,
   ProjectProperties
 } from '../../../generated';
-import {JwtAuthService} from '../../auth/jwt-auth.service';
+import { JwtAuthService } from '../../auth/jwt-auth.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class PlannerService {
   constructor(
-    private plannerStub: PlannerStub,
+    @Inject(PLANNER_STUB) private plannerStub: PlannerStub,
     private authService: JwtAuthService,
     @Inject(LOCALE_ID) private locale: string
   ) {}
@@ -27,7 +27,7 @@ export class PlannerService {
     return of(undefined);
   }
 
-  putLanguage(lang: LanguageDto): Observable<void> {
+  putLanguage(lang: Language): Observable<void> {
     return this.authService.assertLoggedIn().pipe(switchMap(() => this.plannerStub.putLanguage(lang)));
   }
 
